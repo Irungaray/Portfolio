@@ -14,17 +14,18 @@
     },
     "projects": [
       {
-        "title": "React Portfolio",
-        "startDate": "2020",
-        "description": "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+        "title": "Merch Store",
+        "startDate": "2020-12-24",
+        "description": "Autoadministrable E-Commerce created in React with Strapi as the CMS. Integrated with PayPal API and Google Maps. App deployed on Heroku and Strapi CMS & API on Google Cloud Services",
         "images": [
-            "images/portfolio/portfolio/header.png",
-            "images/portfolio/portfolio/about.png",
-            "images/portfolio/portfolio/projects.png",
-            "images/portfolio/portfolio/skills.png",
-            "images/portfolio/portfolio/experience.png"
+            "images/portfolio/merchStore/merchStore.png",
+            "images/portfolio/merchStore/merchStore1.png",
+            "images/portfolio/merchStore/merchStore2.png",
+            "images/portfolio/merchStore/merchStore3.png",
+            "images/portfolio/merchStore/merchStore4.png"
         ],
         "url": "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+        "repo": "asdasd",
         "technologies": [
           {
             "class": "devicon-react-original",
