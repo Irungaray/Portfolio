@@ -123,6 +123,7 @@ header h1 {
 .foto img {
 	display: block;
 	width: 100%;
+	object-fit: fill;
 }
 
 .foto div {
@@ -323,9 +324,10 @@ header h1 {
 
 .modal-description {
 	text-align: center;
+	font-size: 17px;
+	line-height: 1.7;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 17px;
 }
 
 .awssld__next {

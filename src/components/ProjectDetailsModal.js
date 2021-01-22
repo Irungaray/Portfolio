@@ -12,6 +12,7 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
+      var disclaimer = this.props.data.disclaimer;
       var url = this.props.data.url;
       var repo = this.props.data.repo;
 
@@ -100,7 +101,7 @@ class ProjectDetailsModal extends Component {
 
                 {repo ? (
                   <a
-                    href={url}
+                    href={repo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-href"
@@ -112,6 +113,10 @@ class ProjectDetailsModal extends Component {
             </div>
 
             <h2 className="modal-description">{description}</h2>
+
+            {disclaimer ? (
+              <h2 className="modal-description">{disclaimer}</h2>
+            ) : null}
 
             <div className="col-md-12 text-center">
               <ul
