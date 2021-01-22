@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
 
+import cyberHeader from '../assets/header.png';
+
 class Header extends Component {
   constructor() {
     super();
@@ -28,6 +30,20 @@ class Header extends Component {
       var title = this.props.sharedData.title.toUpperCase();
     }
     return (
+      <>
+      <img
+        src={cyberHeader}
+        alt="Cyber Header"
+        className="Cyber"
+        style={{
+          top: "0",
+          bottom:"0",
+          width: "100%",
+          height: "30px",
+            objectFit: "cover"
+        }}
+      />
+
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
@@ -41,8 +57,8 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
+                offColor="#212529"
+                onColor="#212529"
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
@@ -82,6 +98,8 @@ class Header extends Component {
           </div>
         </div>
       </header>
+
+      </>
     );
   }
 }

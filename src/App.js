@@ -8,6 +8,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
+import cyberFooter from './assets/footer.png';
+
 class App extends Component {
   constructor(props) {
     super();
@@ -114,8 +116,23 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
+
           </div>
         </div>
+
+        <img
+          src={cyberFooter}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover"
+          }}
+        />
+
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
