@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+
+import jsIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
@@ -11,7 +12,10 @@ class About extends Component {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+      var name = this.props.resumeBasicInfo.description;
+      var techs = this.props.resumeBasicInfo.stack;
+      var interests = this.props.resumeBasicInfo.passion;
+      var trayectory = this.props.resumeBasicInfo.more;
     }
 
     return (
@@ -30,7 +34,7 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={jsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -42,7 +46,7 @@ class About extends Component {
             </div>
 
             <div className="col-md-8 center">
-              <div className="col-md-10">
+              <div className="col-md-9">
                 <div className="card">
                   <div className="card-header">
                     <span
@@ -71,11 +75,21 @@ class About extends Component {
                       lineHeight: "200%",
                     }}
                   >
+
                     <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    {about}
+
+                    <div>
+                      <span className="wave">{hello} 😎 </span>
+                      <br />
+                      <br />
+                      <h3>{name}</h3>
+                      <br />
+                      <h3>{techs}</h3>
+                      <br />
+                      <h3>{interests}</h3>
+                      <br />
+                      <h3>{trayectory} LINK</h3>
+                    </div>
                   </div>
                 </div>
               </div>

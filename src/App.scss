@@ -108,11 +108,16 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 45px/50px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+}
+
+#about h3 {
+	font-size: 21px;
+	line-height: 30px;
 }
 
 .foto img {
@@ -166,7 +171,8 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	width: 300px;
+	height: auto;
 }
 
 .polaroid span {
@@ -191,7 +197,7 @@ header h1 {
 }
 
 .wave {
-	font-size: 160%;
+	font-size: 50px;
 }
 
 .font-trebuchet {

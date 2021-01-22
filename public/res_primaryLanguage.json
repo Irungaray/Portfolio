@@ -1,7 +1,10 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "I am responsible for developing apps and websites. For back-end, I mainly use .NET Core. Besides gaining further experience in Angular and C#, I am also working on extending my front-end skills in React.",
+      "description_header": "Hi!",
+      "description": "I am Lionel Irungaray.",
+      "stack": "Frontend Developer. MERN Stack Enthusiast. Autodidact",
+      "passion": "Passionate about technology and looking forward to expand my knowledge going to the depths of the 'hows' and the 'whys' everyday.",
+      "more": "If you want to know more about me and my trayectory, click here ➡",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
