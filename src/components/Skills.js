@@ -2,6 +2,9 @@ import React, { Component } from "react";
 
 import cyberFooter from "../assets/footerFooter.png";
 import cyberFooterUD from "../assets/footerFooterUD.png";
+
+import "../scss/cybr-btn.scss";
+
 class Skills extends Component {
   render() {
     // Obviously there's a better way to do this, but time is gold
@@ -15,16 +18,32 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  ></p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "300%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "300%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
               </div>
               {/* {skills.stack ? <div>{' ___  '}</div> : null} */}
             </span>
@@ -37,6 +56,10 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
+              <div class="cybr-btn">
+                Glitch
+                <span class="cybr-btn__glitch">Glitch_</span>
+              </div>
                 <i className={skills.class} style={{ fontSize: "300%" }}>
                   <p
                     className="text-center"
@@ -193,18 +216,18 @@ class Skills extends Component {
               </ul>
             </div>
           </div>
-        <img
-          src={cyberFooter}
-          alt="Cyber Header"
-          className="Cyber"
-          style={{
-            top: "0",
-            bottom: "0",
-            width: "100%",
-            height: "30px",
-            objectFit: "cover",
-          }}
-        />
+          <img
+            src={cyberFooter}
+            alt="Cyber Header"
+            className="Cyber"
+            style={{
+              top: "0",
+              bottom: "0",
+              width: "100%",
+              height: "30px",
+              objectFit: "cover",
+            }}
+          />
         </section>
       </>
     );
