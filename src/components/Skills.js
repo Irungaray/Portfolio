@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import cyberFooter from "../assets/footerFooter.png";
+import cyberFooterUD from "../assets/footerFooterUD.png";
 class Skills extends Component {
   render() {
     // Obviously there's a better way to do this, but time is gold
@@ -19,10 +21,9 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
-                  >
-                  </p>
+                  ></p>
                 </i>
               </div>
               {/* {skills.stack ? <div>{' ___  '}</div> : null} */}
@@ -42,7 +43,7 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
                   >
                     {skills.name}
@@ -65,10 +66,9 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
-                  >
-                  </p>
+                  ></p>
                 </i>
               </div>
             </span>
@@ -87,7 +87,7 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
                   >
                     {skills.name}
@@ -110,10 +110,9 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
-                  >
-                  </p>
+                  ></p>
                 </i>
               </div>
             </span>
@@ -132,10 +131,9 @@ class Skills extends Component {
                     style={{
                       marginTop: "4px",
                       color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif"
+                      font: "22px/24px 'opensans-bold', sans-serif",
                     }}
-                  >
-                  </p>
+                  ></p>
                 </i>
               </div>
             </span>
@@ -145,33 +143,70 @@ class Skills extends Component {
     }
 
     return (
-      <section id="skills">
-        <div className="col-md-12">
+      <>
+        <section id="skills">
+          <img
+            src={cyberFooterUD}
+            alt="Cyber Header"
+            className="Cyber"
+            style={{
+              top: "0",
+              bottom: "0",
+              width: "100%",
+              height: "17px",
+              // objectFit: "cover",
+            }}
+          />
           <div className="col-md-12">
-            <h1 className="section-title">
-              <span className="text-white">{sectionName}</span>
-            </h1>
+            <div className="col-md-12">
+              <h1 className="section-title">
+                <span className="text-white">{sectionName}</span>
+              </h1>
+            </div>
+            <div className="col-md-12 text-center">
+              <h1>Essentials</h1>
+              <ul className="list-inline mx-auto skill-icon skillsEssentials">
+                {basics}
+              </ul>
+
+              <h1>MERN</h1>
+              <ul className="list-inline mx-auto skill-icon skillsMern">
+                {mern}
+              </ul>
+
+              <h1>Version Control</h1>
+              <ul className="list-inline mx-auto skill-icon skillsVersion">
+                {version}
+              </ul>
+
+              <h1>Deploy & CI Services</h1>
+              <ul className="list-inline mx-auto skill-icon skillsDeploy">
+                {deploy}
+              </ul>
+
+              <h1>Plus</h1>
+              <ul className="list-inline mx-auto skill-icon skillsOthers">
+                {others}
+              </ul>
+              <ul className="list-inline mx-auto skill-icon skillsPlus">
+                {plus}
+              </ul>
+            </div>
           </div>
-          <div className="col-md-12 text-center">
-            <h1>Essentials</h1>
-            <ul className="list-inline mx-auto skill-icon skillsEssentials">{basics}</ul>
-
-            <h1>MERN</h1>
-            <ul className="list-inline mx-auto skill-icon skillsMern">{mern}</ul>
-
-            <h1>Version Control</h1>
-            <ul className="list-inline mx-auto skill-icon skillsVersion">{version}</ul>
-
-            <h1>Deploy & CI Services</h1>
-            <ul className="list-inline mx-auto skill-icon skillsDeploy">{deploy}</ul>
-
-            <h1>Plus</h1>
-            <ul className="list-inline mx-auto skill-icon skillsOthers">{others}</ul>
-
-            <ul className="list-inline mx-auto skill-icon skillsPlus">{plus}</ul>
-          </div>
-        </div>
-      </section>
+        <img
+          src={cyberFooter}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+        </section>
+      </>
     );
   }
 }

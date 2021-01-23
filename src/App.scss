@@ -386,7 +386,7 @@ header h1 {
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 5%;
+	// padding-bottom: 5%;
 	color: white;
 }
 
@@ -406,6 +406,10 @@ header h1 {
 
 .skillsMern {
 	font-size: 300%;
+}
+
+.skillsPlus {
+	padding-bottom: 5%;
 }
 
 footer {
@@ -430,7 +434,7 @@ footer a:focus {
 }
 
 .social-links {
-	margin-top: 50px;
+	margin-top: 20px;
 	font-size: 50px;
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import cyberFooter from '../assets/footerFooter.png';
+import cyberFooter from "../assets/footerFooter.png";
+import cyberFooterUD from "../assets/footerFooterUD.png";
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -17,6 +18,19 @@ class Footer extends Component {
 
     return (
       <footer>
+        <img
+          src={cyberFooterUD}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "17px",
+            objectFit: "initial",
+          }}
+        />
+
         <div className="col-md-12">
           <div className="social-links">{networks}</div>
 
@@ -24,9 +38,11 @@ class Footer extends Component {
             <div className="container">
               <small>
                 Copyright &copy;{" "}
-                {this.props.sharedBasicInfo
-                  ? <p>{this.props.sharedBasicInfo.name} - Altaïr Devs</p>
-                  : "???"}
+                {this.props.sharedBasicInfo ? (
+                  <p>{this.props.sharedBasicInfo.name} - Altaïr Devs</p>
+                ) : (
+                  "???"
+                )}
               </small>
             </div>
           </div>
@@ -40,7 +56,7 @@ class Footer extends Component {
             top: "0",
             bottom: "0",
             width: "100%",
-            height: "30px",
+            height: "38px",
             objectFit: "cover",
           }}
         />
