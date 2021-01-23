@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import Switch from "react-switch";
 
 import cyberHeader from "../assets/header.png";
+import cdpr from "../assets/favicon.ico";
 
 import "../scss/cybr-btn.scss";
 
@@ -76,10 +77,10 @@ class Header extends Component {
 
                 <br />
 
-                <button className="cybr-btn">
+                <div className="cybr-btn">
                 <h1 className="mb-0"><Typical steps={[name]} wrapper="p" /></h1>
                   <span className="cybr-btn__glitch"><h1 className="mb-0"><p style={{ fontFamily: "Cyber", fontSize: "123%", fontWeight: "500" }}>Irungaray</p></h1></span>
-                </button>
+                </div>
 
                 <div className="cybr-btn">
                     {/* <p style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>Frontend Developer</p> */}
@@ -91,6 +92,8 @@ class Header extends Component {
                   <span className="cybr-btn__glitch"><h1 className="mb-0"><div style={{ fontFamily: "Cyber", fontSize: "65%", fontWeight: "500" }}>MERN Stack</div></h1></span>
                 </div>
 
+                <div className="list-inline-item mx-3">
+                  <div className="cybr-btn" style={{width: "100px"}}>
                 <Switch
                   checked={this.state.checked}
                   onChange={this.onThemeSwitchChange}
@@ -100,19 +103,31 @@ class Header extends Component {
                   width={90}
                   height={40}
                   uncheckedIcon={
-                    <span
-                      className="iconify"
-                      data-icon="noto-v1:fire"
-                      data-inline="false"
+                    // <span
+                    //   className="iconify"
+                    //   data-icon="noto-v1:fire"
+                    //   data-inline="false"
+                    //   style={{
+                    //     display: "block",
+                    //     height: "100%",
+                    //     fontSize: 25,
+                    //     textAlign: "end",
+                    //     marginLeft: "20px",
+                    //     color: "#353239",
+                    //   }}
+                    // ></span>
+                    <img
+                      src={cdpr}
+                      alt="CDPR"
                       style={{
                         display: "block",
                         height: "100%",
                         fontSize: 25,
                         textAlign: "end",
-                        marginLeft: "20px",
+                        marginLeft: "10px",
                         color: "#353239",
                       }}
-                    ></span>
+                    />
                   }
                   checkedIcon={
                     <span
@@ -131,6 +146,61 @@ class Header extends Component {
                   }
                   id="icon-switch"
                 />
+                      <span className="cybr-btn__glitch">                <Switch
+                  checked={this.state.checked}
+                  onChange={this.onThemeSwitchChange}
+                  offColor="#212529"
+                  onColor="#212529"
+                  className="react-switch mx-auto"
+                  width={90}
+                  height={40}
+                  uncheckedIcon={
+                    // <span
+                    //   className="iconify"
+                    //   data-icon="noto-v1:fire"
+                    //   data-inline="false"
+                    //   style={{
+                    //     display: "block",
+                    //     height: "100%",
+                    //     fontSize: 25,
+                    //     textAlign: "end",
+                    //     marginLeft: "20px",
+                    //     color: "#353239",
+                    //   }}
+                    // ></span>
+                    <img
+                      src={cdpr}
+                      alt="CDPR"
+                      style={{
+                        display: "block",
+                        height: "100%",
+                        fontSize: 25,
+                        textAlign: "end",
+                        marginLeft: "10px",
+                        color: "#353239",
+                      }}
+                    />
+                  }
+                  checkedIcon={
+                    <span
+                      className="iconify"
+                      data-icon="noto-v1:new-moon"
+                      data-inline="false"
+                      style={{
+                        display: "block",
+                        height: "100%",
+                        fontSize: 25,
+                        textAlign: "end",
+                        marginLeft: "10px",
+                        color: "#353239",
+                      }}
+                    ></span>
+                  }
+                  id="icon-switch"
+                /></span>
+                    </div>
+                </div>
+
               </div>
             </div>
           </div>
