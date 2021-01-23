@@ -74,7 +74,7 @@ header {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 300%;
 	text-align: center;
 	font-weight: 600 !important;
 	color: black;
@@ -369,15 +369,6 @@ header h1 {
 	font-size: 1.5rem;
 }
 
-@media (min-width: 576px) {
-	.portfolio .closeButtonResponsive {
-		display: block;
-	}
-	.portfolio .portfolio-item {
-		margin-bottom: 30px;
-	}
-}
-
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 2%;
@@ -443,4 +434,20 @@ footer a:focus {
 
 .copyright {
 	font-size: 20px;
+}
+
+
+@media (min-width: 576px) {
+	.portfolio .closeButtonResponsive {
+		display: block;
+	}
+	.portfolio .portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 215%;
+  }
 }

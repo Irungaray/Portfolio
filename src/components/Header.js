@@ -77,9 +77,12 @@ class Header extends Component {
 
                 <br />
 
-                <h1 className="mb-0">
-                  <Typical steps={[name]} wrapper="p" />
-                </h1>
+                <button class="cybr-btn">
+                <h1>{name}</h1>
+                  <span class="cybr-btn__glitch"><h1 className="mb-0"><Typical steps={[name]} wrapper="p" /></h1></span>
+                </button>
+
+                
 
                 <div class="cybr-btn">
                     <p style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>Frontend Developer</p>
