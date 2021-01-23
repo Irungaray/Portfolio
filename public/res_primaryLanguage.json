@@ -415,70 +415,64 @@
     ],
     "experience": [
       {
-        "company": "BFirst.Tech",
-        "title": "Front-End Developer",
-        "years": "11.2020 - ",
+        "ico": "fas fa-code experience-icon",
+        "company": "The basics",
+        "title": "Self Learning",
+        "years": "2019 - 2020",
         "mainTech": [
-            "Angular 9/10"
+            "HTML"
         ],
         "technologies": [
-            "REST API",
-            "NgRx",
-            "RxJS",
-            "UIKit",
-            "Angular Material",
-            "JavaScript",
-            "Docker"
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "REST API",
+          "Git"
         ]
       },
       {
-        "company": "Visacom Sp. z o.o.",
-        "title": "Front-End Developer",
-        "years": "10.2019 - 08.2020",
+        "ico": "fab fa-js experience-icon",
+        "company": "Altaïr Devs - Foundation Layer",
+        "title": "Frontend Developer",
+        "years": "2020",
         "mainTech": [
-            "Angular 8/9/10"
+            "JavaScript"
         ],
         "technologies": [
-            "REST API",
-            "RxJS",
-            "JavaScript",
-            "Bootstrap",
-            "MDBootstrap",
-            "EF Core",
-            "Angular Material"
+          "JavaScript",
+          "React",
+          "REST API",
+          "Git",
+          "GitHub"
         ]
       },
       {
-        "company": "Visacom Sp. z o.o.",
-        "title": "Intern",
-        "years": "06.2019 - 09.2019",
+        "ico": "fab fa-react experience-icon",
+        "company": "Self Employed",
+        "title": "Frontend Developer",
+        "years": "2021",
         "mainTech": [
-            "Angular 7/8"
+            "React"
         ],
         "technologies": [
-            "REST API",
-            "RxJS",
-            "Swagger",
             "JavaScript",
-            "DHTMLX Gantt"
-        ]
-      },
-      {
-        "company": "Visacom Sp. z o.o.",
-        "title": "Front-End Developer",
-        "years": "03.2019 - 06.2019",
-        "mainTech": [
-            "Angular 7"
-        ],
-        "technologies": [
-            "REST API",
-            "RxJS",
-            "Swagger",
-            "JavaScript",
+            "React",
             "TypeScript",
-            "Angular Material",
-            "SignalR",
-            "JWT"
+            "Gatsby",
+            "Next",
+            "CMSs"
+        ]
+      },
+      {
+        "ico": "fas fa-infinity experience-icon",
+        "company": "Altaïr Devs - Freelancing",
+        "title": "Learning more and more everyday!",
+        "years": "2021 - ∞",
+        "mainTech": [
+            "Pursuing the mastery"
+        ],
+        "technologies": [
+            "Aside from the technical aspects, looking forwards onto", "Agile Methodologies such as SCRUM","Leadership", "Metrics & Analytics", "Continous Integration Systems", "DevOps", "and many more."
         ]
       }
     ]
