@@ -61,7 +61,7 @@ header {
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
-	width: 100px;
+	width: 100%;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
 }
@@ -220,7 +220,7 @@ header h1 {
 }
 
 #resume {
-	background: #F2E205;
+	background: #ffff00;
 }
 
 .experience-icon {
@@ -343,7 +343,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #F2E205;
+	background: #ffff00;
 	padding-bottom: 5%;
 }
 
@@ -378,29 +378,41 @@ header h1 {
 	}
 }
 
-#skills {
-	background: #1F1F1F;
-	min-height: 200px;
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 10%;
-}
-
 .section-title {
 	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	padding-bottom: 2%;
+	font: 45px/50px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
 	text-align: center;
 }
 
+#skills {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 5%;
+	color: white;
+}
+
+.skills-lists {
+	padding-bottom: 20px;
+}
+
 .skill-icon {
-	font-size: 180%;
 	color: white;
 	text-align: center;
 	position: relative;
+}
+
+.skillsEssentials, .skillsVersion {
+	font-size: 200%;
+}
+
+.skillsMern {
+	font-size: 300%;
 }
 
 footer {
@@ -426,5 +438,9 @@ footer a:focus {
 
 .social-links {
 	margin-top: 50px;
-	font-size: 22px;
+	font-size: 50px;
+}
+
+.copyright {
+	font-size: 20px;
 }

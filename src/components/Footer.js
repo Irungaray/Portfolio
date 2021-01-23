@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import cyberFooter from '../assets/footerFooter.png';
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -24,12 +25,25 @@ class Footer extends Component {
               <small>
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
-                  ? this.props.sharedBasicInfo.name
+                  ? <p>{this.props.sharedBasicInfo.name} - Altaïr Devs</p>
                   : "???"}
               </small>
             </div>
           </div>
         </div>
+
+        <img
+          src={cyberFooter}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
       </footer>
     );
   }

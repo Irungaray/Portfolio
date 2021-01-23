@@ -6,6 +6,9 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
+import cyberHeader from "../assets/header.png";
+import cyberHeaderUD from "../assets/headerUD.png";
+
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
@@ -63,32 +66,60 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
-        <div className="col-md-12 mx-auto">
-          <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
-              </span>
-            </h1>
+      <>
+        <img
+          src={cyberHeader}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+
+        <section id="resume" className="pb-5">
+          <div className="col-md-12 mx-auto">
+            <div className="col-md-12">
+              <h1 className="section-title" style={{ color: "black" }}>
+                <span className="text-black" style={{ textAlign: "center" }}>
+                  {sectionName}
+                </span>
+              </h1>
+            </div>
           </div>
-        </div>
-        <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
-            {work}
-            <VerticalTimelineElement
-              iconStyle={{
-                background: "#AE944F",
-                color: "#fff",
-                textAlign: "center",
-              }}
-              icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-              }
-            />
-          </VerticalTimeline>
-        </div>
-      </section>
+          <div className="col-md-8 mx-auto">
+            <VerticalTimeline>
+              {work}
+              <VerticalTimelineElement
+                iconStyle={{
+                  background: "#AE944F",
+                  color: "#fff",
+                  textAlign: "center",
+                }}
+                icon={
+                  <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+                }
+              />
+            </VerticalTimeline>
+          </div>
+        </section>
+
+        <img
+          src={cyberHeaderUD}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+      </>
     );
   }
 }

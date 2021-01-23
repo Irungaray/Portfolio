@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
+import cyberHeader from "../assets/header.png";
+import cyberFooter from "../assets/footer.png";
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -32,7 +35,7 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 5}}
+                    style={{ marginBottom: 5 }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -48,21 +51,49 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+      <>
+        <img
+          src={cyberHeader}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+
+        <section id="portfolio">
+          <div className="col-md-12">
+            <h1 className="section-title" style={{ color: "black" }}>
+              <span>{sectionName}</span>
+            </h1>
+            <div className="col-md-12 mx-auto">
+              <div className="row mx-auto">{projects}</div>
+            </div>
+            <ProjectDetailsModal
+              show={this.state.detailsModalShow}
+              onHide={detailsModalClose}
+              data={this.state.deps}
+            />
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
-        </div>
-      </section>
+        </section>
+
+        <img
+          src={cyberFooter}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+      </>
     );
   }
 }

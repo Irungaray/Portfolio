@@ -4,66 +4,172 @@
         "title": "Front-end Developer",
         "description": "Zajmuję się projektowaniem i programowaniem aplikacji oraz stron internetowych. Na back-endzie korzystam głównie z .NET Core. Oprócz zbierania dalszego doświadczenia w Angular i C#, rozwijam poza pracą swoje front-endowe zainteresowania także w React.",
         "social": [
-          {
-            "name": "github",
-            "url": "https://github.com/Dorota1997",
-            "class": "fab fa-github"
-          },
-          {
-            "name": "instagram",
-            "url": "https://www.instagram.com/dorota__gil/",
-            "class": "fab fa-instagram"
-          }
+            {
+                "name": "github",
+                "url": "https://github.com/Irungaray",
+                "class": "fab fa-github"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/Irunga_Ray",
+                "class": "fab fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/lionel-irungaray-1967001a4/",
+                "class": "fab fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/irunga.ray/",
+                "class": "fab fa-instagram"
+            }
         ],
         "image": "myProfile.jpg"
     },
     "skills": {
-      "icons": [
+        "basic": [
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain colored",
+                "level": "95"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain colored",
+                "level": "95"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain colored",
+                "level": "70",
+                "stack": "true"
+            }
+        ],
+        "mern": [
+            {
+                "name": "MongoDB",
+                "class": "devicon-mongodb-plain colored",
+                "level": "70"
+            },
+            {
+                "name": "Express",
+                "class": "devicon-express-original",
+                "level": "50"
+            },
+            {
+                "name": "React",
+                "class": "devicon-react-original colored",
+                "level": "70"
+            },
+            {
+                "name": "Node",
+                "class": "devicon-nodejs-plain colored",
+                "level": "70"
+            }
+        ],
+        "version": [
+            {
+                "name": "Git",
+                "class": "devicon-git-plain colored",
+                "level": "90"
+            },
+            {
+                "name": "GitHub",
+                "class": "devicon-github-original",
+                "level": "100"
+            }
+        ],
+        "deploy": [
+            {
+                "name": "Netlify",
+                "class": "devicon-devicon-plain",
+                "level": "90"
+            },
+            {
+                "name": "GH Pages",
+                "class": "devicon-github-plain colored",
+                "level": "100"
+            },
+            {
+                "name": "Vercel",
+                "class": "devicon-bash-plain",
+                "level": "90"
+            },
+            {
+              "name": "Google Cloud",
+              "class": "devicon-googlecloud-plain colored",
+              "level": "90"
+            },
+            {
+              "name": "Heroku",
+              "class": "devicon-heroku-plain",
+              "level": "90"
+            },
+            {
+              "name": "Travis",
+              "class": "devicon-travis-plain colored",
+              "level": "90"
+            }
+        ],
+        "plus": [
+            {
+                "name": "NPM",
+                "class": "devicon-npm-original-wordmark colored",
+                "level": "100"
+            },
+            {
+                "name": "Babel",
+                "class": "devicon-babel-plain colored",
+                "level": "90"
+            },
+            {
+                "name": "Webppack",
+                "class": "devicon-webpack-plain colored",
+                "level": "90"
+            },
+            {
+              "name": "Xd",
+              "class": "devicon-xd-plain colored",
+              "level": "90"
+            },
+            {
+              "name": "Photoshop",
+              "class": "devicon-photoshop-plain colored",
+              "level": "90"
+            },
+            {
+              "name": "Ubuntu",
+              "class": "devicon-ubuntu-plain colored",
+              "level": "90"
+            }
+        ],
+        "others": [
           {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain",
-            "level": "95"
+              "name": "TypeScript",
+              "class": "devicon-typescript-plain colored",
+              "level": "90"
           },
           {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain",
-            "level": "95"
+              "name": "Gatsby",
+              "class": "devicon-gatsby-plain colored",
+              "level": "90"
           },
           {
-            "name": "Angular",
-            "class": "devicon-angularjs-plain",
-            "level": "80"
+              "name": "Sass",
+              "class": "devicon-sass-original",
+              "level": "75"
           },
           {
-            "name": "TypeScript",
-            "class": "devicon-typescript-plain",
+              "name": "Bootstrap",
+              "class": "devicon-bootstrap-plain colored",
+              "level": "85"
+          },
+          {
+            "name": "Redux",
+            "class": "devicon-redux-original colored",
             "level": "90"
-          },
-          {
-            "name": "JavaScript",
-            "class": "devicon-javascript-plain",
-            "level": "70"
-          },
-          {
-            "name": "Sass",
-            "class": "devicon-sass-original",
-            "level": "75"
-          },
-          {
-            "name": "Bootstrap",
-            "class": "devicon-bootstrap-plain",
-            "level": "85"
-          },
-          {
-            "name": "C#",
-            "class": "devicon-csharp-plain",
-            "level": "65"
-          },
-          {
-            "name": "MySql",
-            "class": "devicon-mysql-plain",
-            "level": "60"
           }
-      ]
+        ]
     }
-  }
+}
