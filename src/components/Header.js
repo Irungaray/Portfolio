@@ -77,16 +77,20 @@ class Header extends Component {
 
                 <br />
 
-                <div class="cybr-btn">
-                  Glitch<span>_</span>
-                  <span class="cybr-btn__glitch">Glitch_</span>
-                </div>
-
                 <h1 className="mb-0">
                   <Typical steps={[name]} wrapper="p" />
                 </h1>
 
-                <Typical className="title-styles" steps={[title]} wrapper="p" />
+                <div class="cybr-btn">
+                    <p style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>Frontend Developer</p>
+                  <span class="cybr-btn__glitch">
+                  <Typical
+                    className="title-styles"
+                    steps={[title]}
+                    wrapper="p"
+                  />
+                  </span>
+                </div>
 
                 <Switch
                   checked={this.state.checked}
