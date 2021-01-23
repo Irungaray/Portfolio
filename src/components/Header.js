@@ -50,7 +50,6 @@ class Header extends Component {
           id="home"
           style={{
             // height: window.innerHeight - 140,
-            height: "87vh",
             display: "block",
           }}
         >

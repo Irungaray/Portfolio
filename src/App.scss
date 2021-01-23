@@ -23,7 +23,7 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
+	height: 87vh;
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
@@ -449,9 +449,9 @@ footer a:focus {
 }
 
 @media only screen and (max-width: 480px) {
-	// header {
-	// 	padding-bottom: 0;
-	// }
+	header {
+		height: 82vh;
+	}
 	.header-icon {
 		height: 150px;
 		width: 150px;
@@ -463,5 +463,17 @@ footer a:focus {
 
 	.title-styles {
 		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	header {
+		height: 83vh;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	header {
+		height: 72vh;
 	}
 }

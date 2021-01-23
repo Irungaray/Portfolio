@@ -83,6 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
@@ -132,6 +133,7 @@ class App extends Component {
             objectFit: "cover"
           }}
         />
+        </div>
 
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
