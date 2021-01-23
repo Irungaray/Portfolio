@@ -84,7 +84,7 @@ class Experience extends Component {
           <div className="col-md-12 mx-auto">
             <div className="col-md-12">
               <div class="cybr-btn">
-                <h1 className="section-title" style={{ color: "black" }}><span>{sectionName}</span></h1>
+                <h1 className="section-title" style={{ color: "black", fontSize: "35px" }}><span>{sectionName}</span></h1>
                 <span class="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
               </div>
             </div>

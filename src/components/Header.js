@@ -78,10 +78,8 @@ class Header extends Component {
 
                 <button class="cybr-btn">
                 <h1 className="mb-0"><Typical steps={[name]} wrapper="p" /></h1>
-                  <span class="cybr-btn__glitch"><h1 className="mb-0"><Typical steps={[name]} wrapper="p" /></h1></span>
+                  <span class="cybr-btn__glitch"><h1 className="mb-0"><p style={{ fontFamily: "Cyber", fontSize: "123%", fontWeight: "500" }}>Irungaray</p></h1></span>
                 </button>
-
-                
 
                 <div class="cybr-btn">
                     {/* <p style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>Frontend Developer</p> */}
@@ -90,13 +88,7 @@ class Header extends Component {
                     steps={[title]}
                     wrapper="p"
                   />
-                  <span class="cybr-btn__glitch">
-                  <Typical
-                    className="title-styles"
-                    steps={[title]}
-                    wrapper="p"
-                  />
-                  </span>
+                  <span class="cybr-btn__glitch"><h1 className="mb-0"><div style={{ fontFamily: "Cyber", fontSize: "65%", fontWeight: "500" }}>MERN Stack</div></h1></span>
                 </div>
 
                 <Switch

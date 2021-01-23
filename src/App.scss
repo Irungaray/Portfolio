@@ -2,6 +2,10 @@
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+* {
+	font-family: "Cyber";
+}
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -55,9 +59,18 @@ header h1 {
 	width: 100%;
 }
 
+header p {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
+}
+
+.modal-content h1, h2 {
+	font-family: "Raleway";
+	font-weight: bold!important;
 }
 
 .project-date {
@@ -104,7 +117,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #e5e5e5;
 	overflow: hidden;
 }
 
@@ -118,7 +131,9 @@ header h1 {
 }
 
 #about h3 {
+	font-family: "Raleway";
 	font-size: 21px;
+	font-weight: bold;
 	line-height: 30px;
 }
 
@@ -179,7 +194,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #f3f3f3;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -197,6 +212,10 @@ header h1 {
 
 .link-href {
 	color: black;
+}
+
+.card {
+	background-color: #f3f3f3!important;
 }
 
 .wave {

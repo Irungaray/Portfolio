@@ -2,16 +2,22 @@ import React, { Component } from "react";
 
 import cyberFooter from "../assets/footerFooter.png";
 import cyberFooterUD from "../assets/footerFooterUD.png";
+
+import "../scss/cybr-btn.scss"
+
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
-            </a>
-          </span>
+          <>
+            <li className="list-inline-item mx-3">
+              <div class="cybr-btn" style={{ fontSize: "100%"}}>
+              <span key={network.name} className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span>
+                <span class="cybr-btn__glitch"><span key={network.name} className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span></span>
+              </div>
+            </li>
+          </>
         );
       });
     }
@@ -36,14 +42,14 @@ class Footer extends Component {
 
           <div className="copyright py-4 text-center">
             <div className="container">
-              <small>
+              <h1 style={{ fontFamily: "Cyber", letterSpacing: "3px"}}>
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo ? (
                   <p>{this.props.sharedBasicInfo.name} - Altaïr Devs</p>
                 ) : (
                   "???"
                 )}
-              </small>
+              </h1>
             </div>
           </div>
         </div>
