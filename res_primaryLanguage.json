@@ -1,0 +1,479 @@
+{
+    "basic_info": {
+      "description_header": "Hi!",
+      "description": "I am Lionel Irungaray.",
+      "stack": "Frontend Developer. MERN Stack Enthusiast. Autodidact",
+      "passion": "Passionate about technology and looking forward to expand my knowledge going to the depths of the 'hows' and the 'whys' everyday.",
+      "more": "If you want to know more about me and my trayectory, click here ➡",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Renacimiento",
+        "startDate": "2021-01-22",
+        "description": "Art of the Renaissance Period. Full NextJs project, coded in TypeScript. Elements fetched from local DataBase. Improved SEO and Performance with SSR, SR and ISR strategies vía NextJs built-in functions. Analytic Metrics via Vercel. Continous deployment on Vercel via GitHub.",
+        "disclaimer": "Made in collaboration with my associates from Altaïr Devs © for the sake of Art Appreciation.",
+        "images": [
+            "images/portfolio/renaissance/renaissance.png",
+            "images/portfolio/renaissance/renaissance1.png",
+            "images/portfolio/renaissance/renaissance2.png"
+        ],
+        "url": "https://renacimiento.vercel.app/",
+        "repo": "https://github.com/Altair-Devs/Renacimiento",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-devicon-plain",
+            "name": "NextJs"
+          }
+        ]
+      },
+      {
+        "title": "J U M B O  _  S T O R E !1!!",
+        "startDate": "2021-01-15",
+        "description": "VIDEOCARDS LIKE ELEPHANTS!! THE ABSOLUTELY MADMAN GATSBY PROJECT. Full Gatsby Static Website, integrated with Stripe Payment API. GraphQL for the querys. SEO improved dinamycally using React Helmet. Deployed on Netlify.",
+        "disclaimer": "Made in collaboration with my associates from Altaïr Devs ©",
+        "images": [
+            "images/portfolio/jumboStore/jumboStore.png",
+            "images/portfolio/jumboStore/jumboStore1.png",
+            "images/portfolio/jumboStore/jumboStore2.png",
+            "images/portfolio/jumboStore/jumboStore3.png",
+            "images/portfolio/jumboStore/jumboStore4.png",
+            "images/portfolio/jumboStore/jumboStore5.png"
+        ],
+        "url": "https://jumbostore.netlify.app/",
+        "repo": "https://github.com/Irungaray/JUMBO-STORE",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-gatsby-plain",
+            "name": "Gatsby"
+          }
+        ]
+      },
+      {
+        "title": "Next Cards",
+        "startDate": "2021-01-20",
+        "description": "WHICH ONE IS GONNA BE YOUR NEXT VIDEOCARD? Full NextJs project, coded in TypeScript. Products fetched from local DataBase. Improved SEO and Performance with SSR, SR and ISR strategies vía NextJs built-in functions. Analytic Metrics via Vercel. Continous deployment on Vercel via GitHub.",
+        "images": [
+            "images/portfolio/nextCards/nextCards.png",
+            "images/portfolio/nextCards/nextCards1.png",
+            "images/portfolio/nextCards/nextCards2.png",
+            "images/portfolio/nextCards/nextCards4.png",
+            "images/portfolio/nextCards/nextCards3.png"
+        ],
+        "url": "https://next-card.vercel.app/",
+        "repo": "https://github.com/Irungaray/Next-Card",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-devicon-plain",
+            "name": "NextJs"
+          }
+        ]
+      },
+      {
+        "title": "Merch Store",
+        "startDate": "2020-12-24",
+        "description": "Autoadministrable E-Commerce created in React with Strapi as the CMS. Integrated with PayPal API and Google Maps. The Strapi API was deployed to Google Cloud Services and the Client to Firebase via GitHub Actions/Continous Deploys",
+        "disclaimer": "Currently deprecated due to end of GCS trial period.",
+        "images": [
+            "images/portfolio/merchStore/merchStore.png",
+            "images/portfolio/merchStore/merchStore1.png",
+            "images/portfolio/merchStore/merchStore2.png",
+            "images/portfolio/merchStore/merchStore3.png",
+            "images/portfolio/merchStore/merchStore4.png"
+        ],
+        "url": "https://merchstore-85845.web.app/",
+        "repo": "https://github.com/Irungaray/Merch-Store",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          }
+        ]
+      },
+      {
+        "title": "Recipes - PWA ",
+        "startDate": "2021-01-01",
+        "description": "Pushing Progressive Web Apps to its limits. The page fetchs a Recipes API and renders the data. It counts with offline support provided by Workbox, network strategies designed for each resource, WebShare API to interact with the device, Google Analytics, and, of course, Add to Home Screen button. Deployed on Vercel",
+        "images": [
+            "images/portfolio/recipes/recipes.PNG",
+            "images/portfolio/recipes/recipes1.PNG",
+            "images/portfolio/recipes/recipes2.PNG"
+        ],
+        "url": "https://recetaspwa.vercel.app/",
+        "repo": "https://github.com/Irungaray/Recetas-PWA",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          }
+        ]
+      },
+      {
+        "title": "Sorting Algorithms",
+        "startDate": "2020-08-13",
+        "description": "Still in development, it will show on screen in real-time different sorting algorithms in action",
+        "images": [
+            "images/portfolio/sortingAlgorithms/sortingAlgorithms.PNG"
+        ],
+        "url": "https://irungaray.github.io/Sorting-Algorithms/",
+        "repo": "https://github.com/Irungaray/Sorting-Algorithms",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "React Boilerplate",
+        "startDate": "2020-30-12",
+        "description": "NPX Package. It generates a React Boilerplate ready to work with. Basically the same as create-react-app. Made as a contribution to the Dev Community.",
+        "disclaimer": "Still in development!",
+        "images": [
+            "images/portfolio/reactBoilerplate/reactBoilerplate.PNG"
+        ],
+        "repo": "https://github.com/Irungaray/React-Boilerplate",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          }
+        ]
+      },
+      {
+        "title": "RayHub",
+        "startDate": "2020-09-06",
+        "description": "Full MERN Stack App. Frontend in React, connected to MongoDB, SSR with Express, compiled with Node. Backend for Frontend Architectonic Pattern. Users Sign-up with Passport. Actions and Reducers with Redux & Axios. Movies API. Dev & Prod config with Webpack. Helmet Middlewares. SASS Styles (no Bootstrap!) All photographs taken by me.",
+        "disclaimer": "Such a complex project takes time to do by one self, so it's still in development phase, but you can view the code on the repository and the deploy of the frontend in plain HTML & CSS.",
+        "images": [
+            "images/portfolio/rayhub/rayhub.PNG",
+            "images/portfolio/rayhub/rayhub1.PNG"
+        ],
+        "url": "https://irungaray.github.io/RayHub/",
+        "repo": "https://github.com/Irungaray/Ray-Hub",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-original",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "R&M - The PWA",
+        "startDate": "2020-11-12",
+        "description": "Exploring the 'bonanzas' of what the PWA feature of React has to offer. The site fetchs the R&M API and renders a card for each character, so the user can interact with. Also offers a Dark Mode. All this within a SPA. Crazy, don't you think?",
+        "images": [
+            "images/portfolio/rymPwa/rymPwa.png"
+        ],
+        "url": "https://irungaray.github.io/R-M_PWA/",
+        "repo": "https://github.com/Irungaray/R-M_PWA",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Expense Tracker",
+        "startDate": "2020-15-09",
+        "description": "Expense Tracker App made with React Hooks.",
+        "disclaimer": "Imminenttly coming the full version, ready to sell, designed to keep track of a business accounts.",
+        "images": [
+            "images/portfolio/expenseTracker/expenseTracker.png"
+        ],
+        "url": "https://irungaray.github.io/ExpenseTracker/",
+        "repo": "https://github.com/Irungaray/ExpenseTracker",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Badges",
+        "startDate": "2020-08-04",
+        "description": "Proyect of the PlatziConf. It generates Badges for the attendants of the conference with a CRUD of a local API. Uses Gravatar for the badges avatars.",
+        "images": [
+            "images/portfolio/badges/badges.png"
+        ],
+        "repo": "https://github.com/Irungaray/React-Badge-Sytem",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "JSON-Placeholder CRUD",
+        "startDate": "2020-14-12",
+        "description": "Fetching 'JSON-Placeholder' API and rendering its data into two principal sections: Users & Works. 'Users' shows phony users, and each phony user's posts. 'Works' shows dummy tasks assigned to each phony users. All the data is virtually editable with a Redux CRUD.",
+        "disclaimer": "Nothing too fancy, just practicing. That is the way to become a great Developer, isn't it?",
+        "images": [
+            "images/portfolio/jsonPlaceholder/jsonPlaceholder.png"
+        ],
+        "repo": "https://github.com/Irungaray/Redux-CRUD-Blog",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Percenteage Calculator",
+        "startDate": "2020-06-07",
+        "description": "Too simple to describe. Seriously..",
+        "disclaimer": "Dont expect too much, I was just practicing. That is the way to become a great Developer, isn't it? 😎",
+        "images": [
+            "images/portfolio/percent/percent.png"
+        ],
+        "url": "https://irungaray.github.io/Calculadora-de-Porcentaje/",
+        "repo": "https://github.com/Irungaray/Calculadora-de-Porcentaje",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Altaïr Devs",
+        "startDate": "2020-2021",
+        "description": "Startup made by me and associates. It counts with me as the CEO,  Matías Gallegos as the Senior Developer and Natali Calzia as the UI/UX Designer and Project Manager.",
+        "disclaimer": "We are three friends that started together on this industry and decided to start this project as our first approach on the Tech bussiness. We have worked on different projects for small local business and some others for non-profit local social organizations.",
+        "images": [
+            "images/portfolio/altair/altair.jpg"
+        ],
+        "url": "https://github.com/Altair-Devs",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Other Projects",
+        "startDate": "2020-2021",
+        "description": "Projects of my most early stage of apprenticeship. Landing Pages on HTML, CSS, SPAs on Vanilla JavaScript and some minor React projects. Some with my coworkers from Altaïr Devs.",
+        "disclaimer": "Nothing too fancy, but if you still wanna see it, you can check out my early repos on GitHub.",
+        "images": [
+            "images/portfolio/early/early1.png",
+            "images/portfolio/early/early.jpg",
+            "images/portfolio/early/early4.png",
+            "images/portfolio/early/early2.png",
+            "images/portfolio/early/early3.jpg"
+        ],
+        "url": "https://github.com/Irungaray?tab=repositories",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "ico": "fas fa-code experience-icon",
+        "company": "The basics",
+        "title": "Self Learning",
+        "years": "2019 - 2020",
+        "mainTech": [
+            "HTML"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "REST API",
+          "Git"
+        ]
+      },
+      {
+        "ico": "fab fa-js experience-icon",
+        "company": "Altaïr Devs - Foundation Layer",
+        "title": "Frontend Developer",
+        "years": "2020",
+        "mainTech": [
+            "JavaScript"
+        ],
+        "technologies": [
+          "JavaScript",
+          "React",
+          "REST API",
+          "Git",
+          "GitHub"
+        ]
+      },
+      {
+        "ico": "fab fa-react experience-icon",
+        "company": "Freelance",
+        "title": "Frontend Developer",
+        "years": "2021",
+        "mainTech": [
+            "React"
+        ],
+        "technologies": [
+            "JavaScript",
+            "React",
+            "TypeScript",
+            "Gatsby",
+            "Next",
+            "CMSs"
+        ]
+      },
+      {
+        "ico": "fas fa-infinity experience-icon",
+        "company": "Altaïr Devs - Freelancing",
+        "title": "Learning more and more everyday!",
+        "years": "2021 - ∞",
+        "mainTech": [
+            "Pursuing the mastery"
+        ],
+        "technologies": [
+            "Aside from the technical aspects,", "i'm looking forwards onto:", "Agile Methodologies such as SCRUM","Leadership", "Metrics & Analytics", "Continous Integration Systems", "DevOps", "and many more."
+        ]
+      }
+    ]
+  }
