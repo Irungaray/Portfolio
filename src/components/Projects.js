@@ -67,9 +67,9 @@ class Projects extends Component {
 
         <section id="portfolio">
           <div className="col-md-12">
-              <div class="cybr-btn">
+              <div className="cybr-btn">
                 <h1 className="section-title" style={{ color: "black" }}><span>{sectionName}</span></h1>
-                <span class="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
+                <span className="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
               </div>
             <div className="col-md-12 mx-auto">
               <div className="row mx-auto">{projects}</div>

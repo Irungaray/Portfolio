@@ -18,7 +18,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "300%" }}>
                     {" "}
                     <p
@@ -30,7 +30,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "300%" }}>
                       {" "}
                       <p
@@ -56,7 +56,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "300%" }}>
                     {" "}
                     <p
@@ -68,7 +68,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "300%" }}>
                       {" "}
                       <p
@@ -94,7 +94,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "300%" }}>
                     {" "}
                     <p
@@ -106,7 +106,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "300%" }}>
                       {" "}
                       <p
@@ -131,7 +131,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "300%" }}>
                     {" "}
                     <p
@@ -143,7 +143,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "300%" }}>
                       {" "}
                       <p
@@ -169,7 +169,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "120%" }}>
                     {" "}
                     <p
@@ -181,7 +181,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "120%" }}>
                       {" "}
                       <p
@@ -206,7 +206,7 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <i className={skills.class} style={{ fontSize: "120%" }}>
                     {" "}
                     <p
@@ -218,7 +218,7 @@ class Skills extends Component {
                       }}
                     ></p>{" "}
                   </i>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <i className={skills.class} style={{ fontSize: "120%" }}>
                       {" "}
                       <p
@@ -256,9 +256,9 @@ class Skills extends Component {
           />
           <div className="col-md-12">
             <div className="col-md-12">
-              <div class="cybr-btn">
+              <div className="cybr-btn">
                 <h1 className="section-title"><span>{sectionName}</span></h1>
-                <span class="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
+                <span className="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
               </div>
             </div>
             <div className="col-md-12 text-center">

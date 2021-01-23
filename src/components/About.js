@@ -21,9 +21,9 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <div class="cybr-btn">
+          <div className="cybr-btn">
             <h1 className="section-title" style={{ color: "black" }}><span>{sectionName}</span></h1>
-            <span class="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
+            <span className="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
           </div>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
@@ -80,7 +80,7 @@ class About extends Component {
                     <br />
 
                     <div className="about">
-                      <span className="wave">{hello} 😎 </span>
+                      <span className="wave" role="img" aria-label="">{hello} 😎 </span>
                       <br />
                       <br />
                       <h3>{name}</h3>

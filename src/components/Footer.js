@@ -10,14 +10,14 @@ class Footer extends Component {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <>
+          <div key={network.name} className="list-inline-item mx-3">
             <li className="list-inline-item mx-3">
-              <div class="cybr-btn" style={{ fontSize: "100%"}}>
-              <span key={network.name} className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span>
-                <span class="cybr-btn__glitch"><span key={network.name} className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span></span>
+              <div className="cybr-btn" style={{ fontSize: "100%"}}>
+              <span className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span>
+                <span className="cybr-btn__glitch"><span key={network.name} className="m-4"><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.class}></i></a></span></span>
               </div>
             </li>
-          </>
+          </div>
         );
       });
     }

@@ -57,38 +57,38 @@ class Header extends Component {
             <div className="col-md-12">
               <div>
                 {/* Cyber Notebook */}
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                   <span
                     className="iconify header-icon"
                     data-icon="la:laptop-code"
                     data-inline="false"
                   ></span>
                   <span></span>
-                  <span class="cybr-btn__glitch">
+                  <span className="cybr-btn__glitch">
                     <span
                       className="iconify header-icon"
                       data-icon="la:laptop-code"
                       data-inline="false"
                     ></span>
                   </span>
-                  <span class="cybr-btn__tag">R25</span>
+                  <span className="cybr-btn__tag">R25</span>
                 </div>
 
                 <br />
 
-                <button class="cybr-btn">
+                <button className="cybr-btn">
                 <h1 className="mb-0"><Typical steps={[name]} wrapper="p" /></h1>
-                  <span class="cybr-btn__glitch"><h1 className="mb-0"><p style={{ fontFamily: "Cyber", fontSize: "123%", fontWeight: "500" }}>Irungaray</p></h1></span>
+                  <span className="cybr-btn__glitch"><h1 className="mb-0"><p style={{ fontFamily: "Cyber", fontSize: "123%", fontWeight: "500" }}>Irungaray</p></h1></span>
                 </button>
 
-                <div class="cybr-btn">
+                <div className="cybr-btn">
                     {/* <p style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>Frontend Developer</p> */}
                     <Typical
                     className="title-styles"
                     steps={[title]}
                     wrapper="p"
                   />
-                  <span class="cybr-btn__glitch"><h1 className="mb-0"><div style={{ fontFamily: "Cyber", fontSize: "65%", fontWeight: "500" }}>MERN Stack</div></h1></span>
+                  <span className="cybr-btn__glitch"><h1 className="mb-0"><div style={{ fontFamily: "Cyber", fontSize: "65%", fontWeight: "500" }}>MERN Stack</div></h1></span>
                 </div>
 
                 <Switch
