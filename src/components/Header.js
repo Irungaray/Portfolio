@@ -44,16 +44,27 @@ class Header extends Component {
         }}
       />
 
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+      <header
+        id="home"
+        style={{
+          // height: window.innerHeight - 140,
+          height: "87vh",
+          display: 'block'
+        }}
+      >
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+
               <br/>
+
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
+
               <Typical className="title-styles" steps={[title]} wrapper="p" />
+
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
