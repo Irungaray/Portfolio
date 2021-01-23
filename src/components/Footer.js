@@ -66,6 +66,8 @@ class Footer extends Component {
             objectFit: "cover",
           }}
         />
+
+        <p style={{backgroundColor: "black", fontSize: "15px", letterSpacing: "1px"}}>Template by <a href="https://github.com/Dorota1997" target="blank">@Dorota1997</a>, thanks for the amazing work!</p>
       </footer>
     );
   }

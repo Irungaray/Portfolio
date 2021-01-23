@@ -448,7 +448,7 @@
       },
       {
         "ico": "fab fa-react experience-icon",
-        "company": "Self Employed",
+        "company": "Freelance",
         "title": "Frontend Developer",
         "years": "2021",
         "mainTech": [
@@ -472,7 +472,7 @@
             "Pursuing the mastery"
         ],
         "technologies": [
-            "Aside from the technical aspects, looking forwards onto", "Agile Methodologies such as SCRUM","Leadership", "Metrics & Analytics", "Continous Integration Systems", "DevOps", "and many more."
+            "Aside from the technical aspects,", "i'm looking forwards onto:", "Agile Methodologies such as SCRUM","Leadership", "Metrics & Analytics", "Continous Integration Systems", "DevOps", "and many more."
         ]
       }
     ]
