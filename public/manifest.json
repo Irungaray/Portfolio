@@ -1,7 +1,7 @@
 {
   "short_name": "Irungaray",
   "name": "Irungaray Lionel - Frontend Developer",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
