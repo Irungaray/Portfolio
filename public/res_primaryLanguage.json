@@ -19,9 +19,9 @@
         "description": "Art of the Renaissance Period. Full NextJs project, coded in TypeScript. Elements fetched from local DataBase. Improved SEO and Performance with SSR, SR and ISR strategies vía NextJs built-in functions. Analytic Metrics via Vercel. Continous deployment on Vercel via GitHub.",
         "disclaimer": "Made in collaboration with my associates from Altaïr Devs © for the sake of Art Appreciation.",
         "images": [
-            "images/portfolio/renaissance/renaissance.png",
-            "images/portfolio/renaissance/renaissance1.png",
-            "images/portfolio/renaissance/renaissance2.png"
+            "images/portfolio/renaissance/Renaissance.PNG",
+            "images/portfolio/renaissance/Renaissance1.PNG",
+            "images/portfolio/renaissance/Renaissance2.PNG"
         ],
         "url": "https://renacimiento.vercel.app/",
         "repo": "https://github.com/Altair-Devs/Renacimiento",
@@ -79,11 +79,11 @@
         "startDate": "2021-01-20",
         "description": "WHICH ONE IS GONNA BE YOUR NEXT VIDEOCARD? Full NextJs project, coded in TypeScript. Products fetched from local DataBase. Improved SEO and Performance with SSR, SR and ISR strategies vía NextJs built-in functions. Analytic Metrics via Vercel. Continous deployment on Vercel via GitHub.",
         "images": [
-            "images/portfolio/nextCards/nextCards.png",
-            "images/portfolio/nextCards/nextCards1.png",
-            "images/portfolio/nextCards/nextCards2.png",
-            "images/portfolio/nextCards/nextCards4.png",
-            "images/portfolio/nextCards/nextCards3.png"
+            "images/portfolio/nextCards/nextCards.PNG",
+            "images/portfolio/nextCards/nextCards1.PNG",
+            "images/portfolio/nextCards/nextCards2.PNG",
+            "images/portfolio/nextCards/nextCards4.PNG",
+            "images/portfolio/nextCards/nextCards3.PNG"
         ],
         "url": "https://next-card.vercel.app/",
         "repo": "https://github.com/Irungaray/Next-Card",
@@ -170,7 +170,7 @@
         "startDate": "2020-08-13",
         "description": "Still in development, it will show on screen in real-time different sorting algorithms in action",
         "images": [
-            "images/portfolio/sortingAlgorithms/sortingAlgorithms.PNG"
+            "images/portfolio/sortingAlgorithms/sortingAlgorithms.png"
         ],
         "url": "https://irungaray.github.io/Sorting-Algorithms/",
         "repo": "https://github.com/Irungaray/Sorting-Algorithms",
@@ -191,7 +191,7 @@
         "description": "NPX Package. It generates a React Boilerplate ready to work with. Basically the same as create-react-app. Made as a contribution to the Dev Community.",
         "disclaimer": "Still in development!",
         "images": [
-            "images/portfolio/reactBoilerplate/reactBoilerplate.PNG"
+            "images/portfolio/reactBoilerplate/reactBoilerplate.png"
         ],
         "repo": "https://github.com/Irungaray/React-Boilerplate",
         "technologies": [
@@ -341,7 +341,7 @@
         "description": "Too simple to describe. Seriously..",
         "disclaimer": "Dont expect too much, I was just practicing. That is the way to become a great Developer, isn't it? 😎",
         "images": [
-            "images/portfolio/percent/percent.png"
+            "images/portfolio/percent/percent.PNG"
         ],
         "url": "https://irungaray.github.io/Calculadora-de-Porcentaje/",
         "repo": "https://github.com/Irungaray/Calculadora-de-Porcentaje",
