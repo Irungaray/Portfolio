@@ -56,22 +56,33 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-              <div class="cybr-btn">
-                Glitch
-                <span class="cybr-btn__glitch">Glitch_</span>
-              </div>
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  >
-                    {skills.name}
-                  </p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "300%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "300%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
+                <p>{skills.name}</p>
               </div>
             </span>
           </li>
@@ -83,16 +94,32 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  ></p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "300%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "300%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
               </div>
             </span>
           </li>
@@ -104,18 +131,33 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  >
-                    {skills.name}
-                  </p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "300%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "300%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
+                <p>{skills.name}</p>
               </div>
             </span>
           </li>
@@ -127,16 +169,32 @@ class Skills extends Component {
           <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  ></p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "120%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "120%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
               </div>
             </span>
           </li>
@@ -145,19 +203,35 @@ class Skills extends Component {
 
       var plus = this.props.sharedSkills.plus.map(function (skills, i) {
         return (
-          <li className="list-inline-item mx-3" key={i}>
+          <li className="list-inline-item mx-3 skills-lists" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "300%" }}>
-                  <p
-                    className="text-center"
-                    style={{
-                      marginTop: "4px",
-                      color: "white",
-                      font: "22px/24px 'opensans-bold', sans-serif",
-                    }}
-                  ></p>
-                </i>
+                <div class="cybr-btn">
+                  <i className={skills.class} style={{ fontSize: "120%" }}>
+                    {" "}
+                    <p
+                      className="text-center"
+                      style={{
+                        marginTop: "4px",
+                        color: "white",
+                        font: "22px/24px 'opensans-bold', sans-serif",
+                      }}
+                    ></p>{" "}
+                  </i>
+                  <span class="cybr-btn__glitch">
+                    <i className={skills.class} style={{ fontSize: "120%" }}>
+                      {" "}
+                      <p
+                        className="text-center"
+                        style={{
+                          marginTop: "4px",
+                          color: "white",
+                          font: "22px/24px 'opensans-bold', sans-serif",
+                        }}
+                      ></p>{" "}
+                    </i>
+                  </span>
+                </div>
               </div>
             </span>
           </li>
