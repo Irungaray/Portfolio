@@ -6,42 +6,14 @@ import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
+import polaroid from "../assets/polaroidModal/polaroid.jpg"
+import polaroid1 from "../assets/polaroidModal/polaroid1.png"
+import polaroid2 from "../assets/polaroidModal/polaroid2.jpg"
+import polaroid3 from "../assets/polaroidModal/polaroid3.jpg"
+import polaroid4 from "../assets/polaroidModal/polaroid4.jpg"
+
 class PolaroidModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var disclaimer = this.props.data.disclaimer;
-      var url = this.props.data.url;
-      var repo = this.props.data.repo;
-
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
-      }
-    }
-
     return (
       <Modal
         {...this.props}
@@ -80,53 +52,18 @@ class PolaroidModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
+              <div key={1} data-src={polaroid} />
+              <div key={1} data-src={polaroid1} />
+              <div key={1} data-src={polaroid2} />
+              <div key={1} data-src={polaroid3} />
+              <div key={1} data-src={polaroid4} />
             </AwesomeSlider>
           </div>
 
           <div className="col-md-12 text-center">
-            <h1 style={{ padding: "5px 5px 0 5px" }}>{title}</h1>
+            {/* <h1 style={{ padding: "5px 5px 0 5px" }}>{title}</h1> */}
 
-            <div style={{ padding: "10px" }}>
-              <h1 style={{ letterSpacing: "10px"}}>
-                {url ? (
-                  <a
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link-href"
-                  >
-                    <i className="fas fa-external-link-alt" style={{ fontSize: "32px" }}></i>
-                  </a>
-                ) : null}
-
-                {repo ? (
-                  <a
-                    href={repo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link-href"
-                  >
-                    <i className="fab fa-github" style={{ fontSize: "32px" }}></i>
-                  </a>
-                ) : null}
-              </h1>
-            </div>
-
-            <h2 className="modal-description">{description}</h2>
-
-            {disclaimer ? (
-              <h2 className="modal-description">{disclaimer}</h2>
-            ) : null}
-
-            <div className="col-md-12 text-center">
-              <ul
-                className="list-inline mx-auto"
-                style={{ fontSize: "15px"}}
-              >
-                {tech}
-              </ul>
-            </div>
+            {/* <h2 className="modal-description">{description}</h2> */}
           </div>
         </div>
       </Modal>

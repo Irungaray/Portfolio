@@ -83,7 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div classname="landing">
+        <div className="landing">
           <Header sharedData={this.state.sharedData.basic_info} />
           <div className="col-md-12 mx-auto text-center language">
             <div
