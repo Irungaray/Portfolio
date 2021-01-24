@@ -469,6 +469,10 @@ footer a:focus {
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
 	}
+
+	.modal-xl {
+		max-width: 70vw!important;
+	}
 }
 
 @media only screen and (max-width: 480px) {

@@ -2,6 +2,7 @@
     "basic_info": {
       "description_header": "Cześć",
       "description": "I am responsible for developing apps and websites. For back-end, I mainly use .NET Core. Besides gaining further experience in Angular and C#, I am also working on extending my front-end skills in React.",
+      "notCode": "la reocncha de la lora",
       "section_name": {
         "about": "O mnie",
         "projects": "Projekty",
