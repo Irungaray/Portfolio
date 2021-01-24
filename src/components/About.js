@@ -26,13 +26,13 @@ class About extends Component {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
+      var otherStuff = this.props.resumeBasicInfo.notCode;
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var name = this.props.resumeBasicInfo.description;
       var techs = this.props.resumeBasicInfo.stack;
       var interests = this.props.resumeBasicInfo.passion;
       var trayectory = this.props.resumeBasicInfo.more;
-      var otherStuff = this.props.resumeBasicInfo.notCode;
     }
 
     return (
@@ -44,7 +44,6 @@ class About extends Component {
         </div>
 
         <div className="row center mx-auto mb-5">
-          {/* aca */}
           <div className="col-md-4 mb-5 center">
             <div onClick={() => polaroidModalShow(otherStuff)}>
               <div className="polaroid">
@@ -106,9 +105,10 @@ class About extends Component {
                     data={this.state.deps}
                   />
 
-                  <div className="about">
-                    <span className="wave" role="img" aria-label="">
-                      {hello} 😎{" "}
+                  <div className="wave">
+                    {hello}
+                    <span style={{ fontSize: "40px" }} role="img" aria-label="" >
+                      😎
                     </span>
                     <br />
                     <br />
@@ -118,7 +118,12 @@ class About extends Component {
                     <br />
                     <h3>{interests}</h3>
                     <br />
-                    <h3>{trayectory} LINK</h3>
+                    <h3>{trayectory}
+                      <span style={{ fontSize: "30px" }} role="img" aria-label="">
+                        🚀
+                      </span>
+                    </h3>
+                    <br />
                   </div>
                 </div>
               </div>

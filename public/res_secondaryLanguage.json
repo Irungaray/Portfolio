@@ -3,9 +3,10 @@
     "description_header": "Saludos!",
     "description": "Soy Lionel Irungaray.",
     "stack": "Frontend Developer. Aficionado al Stack MERN. Autodidacta.",
-    "passion": "Amante de la tecnología. En constante aprendizaje about technology and looking forward to expand my knowledge going to the depths of the 'hows' and the 'whys' everyday. Apasiona",
-    "more": "If you want to know more about me and my trayectory, click here ➡",
-    "notCode": "Not everything in life is coding!",
+    "passion": "Amante de la tecnología. En constante formación. Expandiendo diariamente mis conocimientos yendo a lo profundo de los 'porqué' y los 'cómo'. Férreamente curioso.",
+    "more": "Si estás interesado en mí y en otros aspectos de mi carrera, podés visitar la siguiente sección ➡",
+    "langDisclaimer": "Para una mejor experiencia de usuario, se recomienda navegar el sitio en el idioma por defecto!",
+    "notCode": "No todo en la vida es código!",
     "section_name": {
       "about": "Sobre mí",
       "projects": "Proyectos",
@@ -417,8 +418,8 @@
   "experience": [
     {
       "ico": "fas fa-code experience-icon",
-      "company": "The basics",
-      "title": "Self Learning",
+      "company": "Lo fundamental",
+      "title": "Autoinstruido",
       "years": "2019 - 2020",
       "mainTech": [
           "HTML"
@@ -466,14 +467,14 @@
     },
     {
       "ico": "fas fa-infinity experience-icon",
-      "company": "Altaïr Devs - Freelancing",
-      "title": "Learning more and more everyday!",
+      "company": "Altaïr Devs - Freelancing - Self Learning",
+      "title": "En constante formación diaria!",
       "years": "2021 - ∞",
       "mainTech": [
-          "Pursuing the mastery"
+          "Persiguiendo la maestría"
       ],
       "technologies": [
-          "Aside from the technical aspects,", "i'm looking forwards onto:", "Agile Methodologies such as SCRUM","Leadership", "Metrics & Analytics", "Continous Integration Systems", "DevOps", "and many more."
+          "Aparte de los aspectos técnicos,", "me enfoco en diferentes ramas de la industria,", "como por ejemplo;", "Metodologías Ágiles como SCRUM", "Liderazgo", "Project Managing", "Métricas y analíticas de performance", "Sistemas de Integración Continua", "DevOps", "y mucho más!."
       ]
     }
   ]
