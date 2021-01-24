@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import AwesomeSlider from "react-awesome-slider";
+import AwesomeSlider from 'react-awesome-slider';
 
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
-import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/captioned.css';
+
 
 import polaroid from "../assets/polaroidModal/polaroid.jpg"
 import polaroid1 from "../assets/polaroidModal/polaroid1.png"
@@ -48,16 +48,16 @@ class PolaroidModal extends Component {
               ></span>
             </div>
             <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              <div key={1} data-src={polaroid} />
-              <div key={1} data-src={polaroid1} />
-              <div key={1} data-src={polaroid2} />
-              <div key={1} data-src={polaroid3} />
-              <div key={1} data-src={polaroid4} />
-            </AwesomeSlider>
+              <div> <img src={polaroid} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+              <div> <img src={polaroid1} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+              <div> <img src={polaroid2} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+              <div> <img src={polaroid3} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+              <div> <img src={polaroid4} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+              {/* {imgMap} */}
+           </AwesomeSlider>
           </div>
 
           <div className="col-md-12 text-center">
