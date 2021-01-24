@@ -30,7 +30,7 @@ class PolaroidModal extends Component {
             <i className="fas fa-times fa-3x close-icon"></i>
           </span>
           <div className="col-md-12">
-            <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+            <div className="col-md-11 mx-auto" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
                 <span
                   className="iconify slider-iconfiy"
@@ -55,11 +55,11 @@ class PolaroidModal extends Component {
                 animation="scaleOutAnimation"
                 className="slider-image"
               >
-                <div> <img src={polaroid} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid1} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid2} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid3} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid4} alt="Me, myself and I" style={{ maxHeight: "399px"}}/> <br /> <h1>BEEP BEEP MOTHERFUCKER!</h1> </div>
+                <div> <img src={polaroid} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
+                <div> <img src={polaroid1} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
+                <div> <img src={polaroid2} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
+                <div> <img src={polaroid3} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
+                <div> <img src={polaroid4} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
                 {/* {imgMap} */}
             </AwesomeSlider>
             </div>
