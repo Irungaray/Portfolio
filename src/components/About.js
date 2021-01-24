@@ -1,11 +1,27 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 
+import PolaroidModal from './PolaroidModal';
+
 import jsIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      deps: {},
+      polaroidModalShow: false,
+    };
+  }
+
   render() {
+    let polaroidModalShow = (data) => {
+      this.setState({ polaroidModalShow: true, deps: data });
+    };
+
+    let polaroidModalClose = () => this.setState({ polaroidModalShow: false });
+
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
@@ -25,24 +41,27 @@ class About extends Component {
             <h1 className="section-title" style={{ color: "black" }}><span>{sectionName}</span></h1>
             <span className="cybr-btn__glitch"><h1 className="section-title"><span>{sectionName}</span></h1></span>
           </div>
+
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={jsIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
+              <div onClick={() => polaroidModalShow()}>
+                <div className="polaroid">
+                  <span style={{ cursor: "auto" }}>
+                    <img
+                      height="250px"
+                      src={profilepic}
+                      alt="Avatar placeholder"
+                    />
+                    <Icon
+                      icon={jsIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={reactIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -78,6 +97,12 @@ class About extends Component {
                   >
 
                     <br />
+
+                    <PolaroidModal
+                      show={this.state.polaroidModalShow}
+                      onHide={polaroidModalClose}
+                      data={this.state.deps}
+                    />
 
                     <div className="about">
                       <span className="wave" role="img" aria-label="">{hello} 😎 </span>
