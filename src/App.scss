@@ -27,7 +27,8 @@ html {
 
 header {
 	position: relative;
-	height: 87vh;
+	// height: 87vh;
+	height: calc(100vh - 125px);
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
@@ -68,11 +69,6 @@ header p {
 	cursor: pointer;
 }
 
-.modal-content h1, h2 {
-	font-family: "Raleway";
-	font-weight: bold!important;
-}
-
 .project-date {
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,11 +95,11 @@ header p {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #1F1F1F;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #1F1F1F;
 	height: 25px;
 }
 
@@ -244,6 +240,46 @@ header p {
 	background: #ffff00;
 }
 
+.modal-inside .modal-content {
+	background: #e5e5e5;
+}
+
+.modal-content h1, h2 {
+	font-family: "Raleway";
+	font-weight: bold!important;
+}
+
+.modal-close {
+	text-align: right;
+	padding: 10px 15px 10px 15px;
+	cursor: pointer;
+}
+
+.close-icon {
+	color: black;
+	font-weight: lighter !important;
+}
+
+.modal-description {
+	text-align: center;
+	font-size: 17px;
+	line-height: 1.7;
+	padding: 5px 5px 0 5px;
+	margin-bottom: 20px;
+}
+
+.awssld__next {
+	outline: none !important;
+}
+
+.awssld__prev {
+	outline: none !important;
+}
+
+.loader-bar-color {
+	color: black !important;
+}
+
 .experience-icon {
 	font-size: 300%;
 	margin-top: 25%;
@@ -275,18 +311,6 @@ header p {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
-}
-
-@media only screen and (max-width: 1170px) {
-	.experience-icon {
-		font-size: 170%;
-		margin-top: 27%;
-		text-align: center;
-	}
-}
-
-.modal-inside .modal-content {
-	background: white;
 }
 
 .bars {
@@ -330,37 +354,6 @@ header p {
 	height: 42px;
 	line-height: 42px;
 	border-radius: 3px 0 0 3px;
-}
-
-.modal-close {
-	text-align: right;
-	padding: 10px 15px 10px 15px;
-	cursor: pointer;
-}
-
-.close-icon {
-	color: black;
-	font-weight: lighter !important;
-}
-
-.modal-description {
-	text-align: center;
-	font-size: 17px;
-	line-height: 1.7;
-	padding: 5px 5px 0 5px;
-	margin-bottom: 20px;
-}
-
-.awssld__next {
-	outline: none !important;
-}
-
-.awssld__prev {
-	outline: none !important;
-}
-
-.loader-bar-color {
-	color: black !important;
 }
 
 #portfolio {
@@ -461,6 +454,13 @@ footer a:focus {
 	font-size: 20px;
 }
 
+@media only screen and (max-width: 1170px) {
+	.experience-icon {
+		font-size: 170%;
+		margin-top: 27%;
+		text-align: center;
+	}
+}
 
 @media (min-width: 576px) {
 	.portfolio .closeButtonResponsive {
@@ -472,9 +472,9 @@ footer a:focus {
 }
 
 @media only screen and (max-width: 480px) {
-	header {
-		height: 82vh;
-	}
+	// header {
+	// 	height: 82vh;
+	// }
 	.header-icon {
 		height: 150px;
 		width: 150px;
@@ -489,14 +489,14 @@ footer a:focus {
 	}
 }
 
-@media only screen and (max-width: 450px) {
-	header {
-		height: 83vh;
-	}
-}
+// @media only screen and (max-width: 450px) {
+// 	header {
+// 		height: 83vh;
+// 	}
+// }
 
-@media only screen and (max-width: 320px) {
-	header {
-		height: 72vh;
-	}
-}
+// @media only screen and (max-width: 320px) {
+// 	header {
+// 		height: 72vh;
+// 	}
+// }

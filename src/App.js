@@ -83,56 +83,56 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-states"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-argentina"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
+        <div classname="landing">
+          <Header sharedData={this.state.sharedData.basic_info} />
+          <div className="col-md-12 mx-auto text-center language">
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$primaryLanguage,
+                  window.$secondaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon mr-5"
+                data-icon="twemoji-flag-for-flag-united-states"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$secondaryLanguage,
+                  window.$primaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-argentina"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+              ></span>
 
+            </div>
           </div>
-        </div>
 
-        <img
-          src={cyberFooter}
-          alt="Cyber Header"
-          className="Cyber"
-          style={{
-            top: "0",
-            bottom: "0",
-            width: "100%",
-            height: "30px",
-            objectFit: "cover"
-          }}
-        />
+          <img
+            src={cyberFooter}
+            alt="Cyber Header"
+            className="Cyber"
+            style={{
+              top: "0",
+              bottom: "0",
+              width: "100%",
+              height: "30px",
+              objectFit: "cover"
+            }}
+          />
         </div>
 
         <About
