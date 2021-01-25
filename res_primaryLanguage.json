@@ -5,6 +5,7 @@
       "stack": "Frontend Developer. MERN Stack Enthusiast. Autodidact",
       "passion": "Passionate about technology and looking forward to expand my knowledge going to the depths of the 'hows' and the 'whys' everyday.",
       "more": "If you want to know more about me and my trayectory, click here ➡",
+      "seeMore": "Wanna see more?",
       "notCode": "Not everything in life is coding!",
       "section_name": {
         "about": "About me",
@@ -337,31 +338,6 @@
         ]
       },
       {
-        "title": "Percenteage Calculator",
-        "startDate": "2020-06-07",
-        "description": "Too simple to describe. Seriously..",
-        "disclaimer": "Dont expect too much, I was just practicing. That is the way to become a great Developer, isn't it? 😎",
-        "images": [
-            "images/portfolio/percent/percent.PNG"
-        ],
-        "url": "https://irungaray.github.io/Calculadora-de-Porcentaje/",
-        "repo": "https://github.com/Irungaray/Calculadora-de-Porcentaje",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
         "title": "Altaïr Devs",
         "startDate": "2020-2021",
         "description": "Startup made by me and associates. It counts with me as the CEO,  Matías Gallegos as the Senior Developer and Natali Calzia as the UI/UX Designer and Project Manager.",
@@ -395,7 +371,8 @@
             "images/portfolio/early/early.jpg",
             "images/portfolio/early/early4.png",
             "images/portfolio/early/early2.png",
-            "images/portfolio/early/early3.jpg"
+            "images/portfolio/early/early3.jpg",
+            "images/portfolio/percent/percent.PNG"
         ],
         "url": "https://github.com/Irungaray?tab=repositories",
         "technologies": [
