@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import cyberHeader from "../assets/header.png";
 import cyberHeaderUD from "../assets/headerUD.png";
 
-import Typical from "react-typical";
 import AwesomeSlider from "react-awesome-slider";
 
 import AwesomeSliderStyles from "../scss/light-slider.scss";

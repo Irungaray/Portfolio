@@ -183,11 +183,14 @@ header p {
 	text-align: center;
 }
 
+.polaroid {
+	cursor: pointer;
+}
+
 .polaroid img {
 	display: block;
 	max-width: 464px;
 	height: auto;
-	cursor: pointer;
 }
 
 .polaroid span {

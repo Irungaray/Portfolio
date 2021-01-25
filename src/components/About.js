@@ -50,7 +50,7 @@ class About extends Component {
           <div className="col-6 mb-5 center">
             <div onClick={() => polaroidModalShow(otherStuff)}>
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span >
                   <img
                     height="250px"
                     src={profilepic}
