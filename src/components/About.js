@@ -44,7 +44,7 @@ class About extends Component {
         </div>
 
         <div className="row center mx-auto mb-5">
-          <div className="col-md-4 mb-5 center">
+          <div className="col-6 mb-5 center">
             <div onClick={() => polaroidModalShow(otherStuff)}>
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
@@ -67,8 +67,8 @@ class About extends Component {
           </div>
           {/* aca */}
 
-          <div className="col-md-8 center">
-            <div className="col-md-9">
+          <div className="col-md-6 center">
+            <div className="col-md-11">
               <div className="card">
                 <div className="card-header">
                   <span

@@ -185,8 +185,9 @@ header p {
 
 .polaroid img {
 	display: block;
-	width: 300px;
+	max-width: 464px;
 	height: auto;
+	cursor: pointer;
 }
 
 .polaroid span {
