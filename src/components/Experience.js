@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+
+import "../scss/cybr-btn.scss";
 
 import cyberHeader from "../assets/header.png";
 import cyberHeaderUD from "../assets/headerUD.png";
@@ -110,6 +113,14 @@ class Experience extends Component {
           </div>
         </section>
 
+        <div className="text-center button-div">
+          <Link to="/Career">
+            <button className="cybr-btn">
+              Wanna see more? ((edit))
+              <span className="cybr-btn__glitch">Click here</span>
+            </button>
+          </Link>
+        </div>
         <img
           src={cyberHeaderUD}
           alt="Cyber Header"
