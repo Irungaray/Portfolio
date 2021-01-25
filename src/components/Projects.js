@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
+
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
 import cyberHeader from "../assets/header.png";
@@ -21,6 +23,7 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      var seeMore = this.props.resumeBasicInfo.seeMore;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
@@ -81,6 +84,15 @@ class Projects extends Component {
             />
           </div>
         </section>
+
+        <div className="text-center button-div">
+          <Link to="/Career">
+            <button className="cybr-btn">
+              {seeMore}
+              <span className="cybr-btn__glitch">Click here</span>
+            </button>
+          </Link>
+        </div>
 
         <img
           src={cyberFooter}

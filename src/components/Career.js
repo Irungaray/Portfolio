@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom'
 import cyberHeader from "../assets/header.png";
 import cyberHeaderUD from "../assets/headerUD.png";
 
-import Typical from "react-typical";
 import AwesomeSlider from "react-awesome-slider";
 
 import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+// import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 
 import polaroid1 from "../assets/polaroidModal/me1.jpg";
 import polaroid2 from "../assets/polaroidModal/me2.jpg";
@@ -18,6 +17,7 @@ import polaroid5 from "../assets/polaroidModal/me5.jpg";
 import polaroid6 from "../assets/polaroidModal/me6.jpg";
 import blacksmith from "../assets/polaroidModal/blacksmith.jpg";
 import rider from "../assets/polaroidModal/rider.jpg";
+import photograph from "../assets/polaroidModal/photographer.jpg";
 import silverhand from "../assets/polaroidModal/silverhand.jpg";
 
 class Career extends Component {
@@ -37,14 +37,14 @@ class Career extends Component {
           }}
         />
 
-        <div className="text-center">
-          <Link to="/Career">
-            <button className="cybr-btn" style={{ fontSize: "50px", width: "80vw"}}>
-              <p>Lionel Irungaray</p>
-              <span className="cybr-btn__glitch">Click to go back</span>
-            </button>
+          <Link to="/">
+            <div className="text-center">
+                <button className="cybr-btn" style={{ fontSize: "50px", width: "80vw"}}>
+                  <p>Lionel Irungaray</p>
+                  <span className="cybr-btn__glitch">Click to go back</span>
+                </button>
+            </div>
           </Link>
-        </div>
 
         <div className="row center mx-auto" style={{ marginTop: "30px" }}>
           <div className="col-xl-5">
@@ -196,7 +196,7 @@ class Career extends Component {
               ></span>
             </div>
             <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+              cssModule={[AwesomeSliderStyles]}
               animation="scaleOutAnimation"
               className="slider-image"
             >
@@ -205,6 +205,7 @@ class Career extends Component {
               <div> <img src={polaroid4} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Welder</div> </div>
               <div> <img src={blacksmith} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Blacksmith</div> </div>
               <div> <img src={rider} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Rider</div> </div>
+              <div> <img src={photograph} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Photographer</div> </div>
               <div> <img src={polaroid3} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Asador Senior</div> </div>
               <div> <img src={polaroid6} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ferroclub CDU Member</div> </div>
               <div> <img src={polaroid5} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ciri, my dog</div> </div>
