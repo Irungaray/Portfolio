@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home";
 import Career from "./components/Career";
+import ScrollToTop from "./utils/ScrollToTop";
 
 class App extends Component {
   constructor(props) {
@@ -17,10 +18,12 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/Career" component={Career} />
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/Career" component={Career} />
+          </Switch>
+        </ScrollToTop>
       </BrowserRouter>
     );
   }

@@ -35,6 +35,7 @@ class Career extends Component {
             objectFit: "cover",
           }}
         />
+
         <div className="row center mx-auto" style={{ marginTop: "30px" }}>
           <div className="col-xl-5">
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
@@ -60,13 +61,14 @@ class Career extends Component {
               </div>
               <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
                 More about me
-                <h3>
+                <h3>Currently, this section is only available in english :(</h3>
+                <h2>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
                   nesciunt praesentium obcaecati est rerum, iure repudiandae
                   aperiam odit soluta voluptatem quo, laudantium suscipit id,
                   debitis commodi maxime ducimus quidem aut.
-                </h3>
-                <h3>
+                </h2>
+                <h2>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Exercitationem qui eligendi aliquid rem facilis atque veniam
                   adipisci, et ipsum repellendus quis possimus laborum a
@@ -75,15 +77,15 @@ class Career extends Component {
                   repellendus cumque provident, temporibus atque nostrum, culpa
                   ducimus distinctio dicta soluta. Dolore excepturi voluptates
                   ullam dolorum sapiente veritatis ab reprehenderit.
-                </h3>
-                <h3>
+                </h2>
+                <h1>
                   Wanna go back to the homepage? click here ➡
                   <Link to="/">
                     <span style={{ fontSize: "30px" }} role="img" aria-label="">
                       🚀
                     </span>
                   </Link>
-                </h3>
+                </h1>
                 <br />
               </div>
             </div>
