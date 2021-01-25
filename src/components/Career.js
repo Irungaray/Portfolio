@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import cyberHeader from "../assets/header.png";
 import cyberHeaderUD from "../assets/headerUD.png";
 
+import Typical from "react-typical";
 import AwesomeSlider from "react-awesome-slider";
 
 import AwesomeSliderStyles from "../scss/light-slider.scss";
@@ -45,7 +46,7 @@ class Career extends Component {
           </Link>
         </div>
 
-        <div className="row center md-auto" style={{ marginTop: "30px" }}>
+        <div className="row center mx-auto" style={{ marginTop: "30px" }}>
           <div className="col-xl-5">
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
@@ -101,7 +102,7 @@ class Career extends Component {
           </div>
 
           <div className="row md-auto">
-            <div className="col-md-12 md-auto polaroid-modal text-center" style={{ paddingBottom: "50px"}}>
+            <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px"}}>
               <div className="slider-tab">
                 <span
                   className="iconify slider-iconfiy"
@@ -134,7 +135,7 @@ class Career extends Component {
               </div>
             </div>
 
-            <div className="col-md-12 md-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
                 <span
                   className="iconify slider-iconfiy"
