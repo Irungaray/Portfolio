@@ -1,231 +1,127 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import { Link } from "react-router-dom";
 
-import PolaroidModal from "./PolaroidModal";
+import cyberHeader from "../assets/header.png";
+import cyberHeaderUD from "../assets/headerUD.png";
 
-import profilePic from "../assets/myProfile.jpg";
+import AwesomeSlider from 'react-awesome-slider';
 
-import jsIcon from "@iconify/icons-logos/javascript";
-import reactIcon from "@iconify/icons-logos/react";
+import AwesomeSliderStyles from "../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 
-class About extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      deps: {},
-      polaroidModalShow: false,
-    };
-  }
+import polaroid1 from "../assets/polaroidModal/me1.jpg"
+import polaroid2 from "../assets/polaroidModal/me2.jpg"
+import polaroid3 from "../assets/polaroidModal/me3.png"
+import polaroid4 from "../assets/polaroidModal/me4.jpg"
+import polaroid5 from "../assets/polaroidModal/me5.jpg"
+import polaroid6 from "../assets/polaroidModal/me6.jpg"
+import blacksmith from "../assets/polaroidModal/blacksmith.jpg"
+import rider from "../assets/polaroidModal/rider.jpg"
+import silverhand from "../assets/polaroidModal/silverhand.jpg"
 
+
+class Experience extends Component {
   render() {
-    let polaroidModalShow = (data) => {
-      this.setState({ polaroidModalShow: true, deps: data });
-    };
-
-    let polaroidModalClose = () => this.setState({ polaroidModalShow: false });
-
     return (
-      <section id="about">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>More about me</span>
-          </h1>
+      <>
+        <img
+          src={cyberHeader}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+
+      <div className="col-md-12">
+        <div className="col-md-5 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+          <div className="slider-tab">
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="emojione:red-circle"
+              data-inline="false"
+              style={{ marginLeft: "5px" }}
+            ></span>{" "}
+            &nbsp;{" "}
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="twemoji:yellow-circle"
+              data-inline="false"
+            ></span>{" "}
+            &nbsp;{" "}
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="twemoji:green-circle"
+              data-inline="false"
+            ></span>
+          </div>
+
+        </div>
+      </div>
+
+      {/* MODAL */}
+      <div className="col-md-12">
+        <div className="col-md-5 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+          <div className="slider-tab">
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="emojione:red-circle"
+              data-inline="false"
+              style={{ marginLeft: "5px" }}
+            ></span>{" "}
+            &nbsp;{" "}
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="twemoji:yellow-circle"
+              data-inline="false"
+            ></span>{" "}
+            &nbsp;{" "}
+            <span
+              className="iconify slider-iconfiy"
+              data-icon="twemoji:green-circle"
+              data-inline="false"
+            ></span>
+          </div>
+          <AwesomeSlider
+            cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+            animation="scaleOutAnimation"
+            className="slider-image"
+          >
+            <div> <img src={polaroid1} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Outdoors Enjoyer</div></div>
+            <div> <img src={polaroid2} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Antiquities Collector</div> </div>
+            <div> <img src={polaroid4} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Welder</div> </div>
+            <div> <img src={blacksmith} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Blacksmith</div> </div>
+            <div> <img src={rider} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Rider</div> </div>
+            <div> <img src={polaroid3} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Asador Senior</div> </div>
+            <div> <img src={polaroid6} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ferroclub CDU Member</div> </div>
+            <div> <img src={polaroid5} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ciri, my dog</div> </div>
+            <div> <img src={silverhand} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">You really got all the way down here? Hope you enjoyed, Samurai!</div> </div>
+          </AwesomeSlider>
         </div>
 
-        <div className="row center mx-auto mb-5">
-          <div className="col-6 mb-5 center">
-            <div onClick={() => polaroidModalShow()}>
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilePic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={jsIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <PolaroidModal
-            show={this.state.polaroidModalShow}
-            onHide={polaroidModalClose}
-            data={this.state.deps}
-          />
-
-          <div className="HelloThere col-md-6 center" style={{ paddingBottom: "20px" }}>
-            <div className="col-md-11">
-              <div className="card">
-                <div className="card-header">
-                  <span
-                    className="iconify"
-                    data-icon="emojione:red-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:yellow-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:green-circle"
-                    data-inline="false"
-                  ></span>
-                </div>
-                <div
-                  className="card-body font-trebuchet text-justify ml-3 mr-3"
-                  style={{
-                    height: "auto",
-                    fontSize: "132%",
-                    lineHeight: "200%",
-                  }}
-                >
-                  <br />
-                  <div className="wave">
-                    Hello there!
-                    <span style={{ fontSize: "40px" }} role="img" aria-label="">
-                      😎
-                    </span>
-                    <br /> <br />
-                    Here you can read more about...
-                    <br />
-                    <br />
-                    <h3>Me</h3>
-                    <br />
-                    <h3>What im doing now</h3>
-                    <br />
-                    <h3>My previous experience</h3>
-                    <br />
-                    <h3>
-                      Where im heading
-                      <span
-                        style={{ fontSize: "30px" }}
-                        role="img"
-                        aria-label=""
-                      >
-                        🚀
-                      </span>
-                    </h3>
-                    <br />
-                    <h3>And also some of my hobbies!</h3>
-                    <br />
-                    <h3>
-                      And you can always go back to the homepage just clicking
-                      here ➡
-                      <Link to="/">
-                        <span
-                          style={{ fontSize: "30px" }}
-                          role="img"
-                          aria-label=""
-                        >
-                          🏠
-                        </span>
-                      </Link>
-                    </h3>
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="AboutMe col-md-6 center" style={{ paddingBottom: "20px" }}>
-            <div className="card">
-              <div className="card-header">
-                <span
-                  className="iconify"
-                  data-icon="emojione:red-circle"
-                  data-inline="false"
-                ></span>{" "}
-                &nbsp;{" "}
-                <span
-                  className="iconify"
-                  data-icon="twemoji:yellow-circle"
-                  data-inline="false"
-                ></span>{" "}
-                &nbsp;{" "}
-                <span
-                  className="iconify"
-                  data-icon="twemoji:green-circle"
-                  data-inline="false"
-                ></span>
-              </div>
-              <div
-                className="card-body font-trebuchet text-justify ml-3 mr-3"
-                style={{
-                  height: "auto",
-                  fontSize: "132%",
-                  lineHeight: "200%",
-                }}
-              >
-                <br />
-                <div className="wave">
-                  About me...
-                  <br /> {" "} <br />
-                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aliquam id temporibus accusamus debitis dolorum nulla, consequuntur illum perferendis architecto voluptatum iusto sed fugiat deserunt saepe consequatur iste. Officiis, esse.</h3>
-                  <br/>
-                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aliquam id temporibus accusamus debitis dolorum nulla, consequuntur illum perferendis architecto voluptatum iusto sed fugiat deserunt saepe consequatur iste. Officiis, esse.</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="WhatImDoing col-md-6 center" style={{ paddingBottom: "20px" }}>
-            <div className="card">
-              <div className="card-header">
-                <span
-                  className="iconify"
-                  data-icon="emojione:red-circle"
-                  data-inline="false"
-                ></span>{" "}
-                &nbsp;{" "}
-                <span
-                  className="iconify"
-                  data-icon="twemoji:yellow-circle"
-                  data-inline="false"
-                ></span>{" "}
-                &nbsp;{" "}
-                <span
-                  className="iconify"
-                  data-icon="twemoji:green-circle"
-                  data-inline="false"
-                ></span>
-              </div>
-              <div
-                className="card-body font-trebuchet text-justify ml-3 mr-3"
-                style={{
-                  height: "auto",
-                  fontSize: "132%",
-                  lineHeight: "200%",
-                }}
-              >
-                <br />
-                <div className="wave">
-                  What im doing now:
-                  <br /> {" "} <br />
-                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aliquam id temporibus accusamus debitis dolorum nulla, consequuntur illum perferendis architecto voluptatum iusto sed fugiat deserunt saepe consequatur iste. Officiis, esse.</h3>
-                  <br/>
-                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aliquam id temporibus accusamus debitis dolorum nulla, consequuntur illum perferendis architecto voluptatum iusto sed fugiat deserunt saepe consequatur iste. Officiis, esse.</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="col-md-12 text-center">
+          <h1 style={{ paddingBottom: "15px" }}>Not everything in life is coding!</h1>
         </div>
-      </section>
+      </div>
+
+        <img
+          src={cyberHeaderUD}
+          alt="Cyber Header"
+          className="Cyber"
+          style={{
+            top: "0",
+            bottom: "0",
+            width: "100%",
+            height: "30px",
+            objectFit: "cover",
+          }}
+        />
+      </>
     );
   }
 }
 
-export default About;
+export default Experience;

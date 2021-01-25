@@ -152,7 +152,10 @@ class Layout extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Career />
+        <Career
+          resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
