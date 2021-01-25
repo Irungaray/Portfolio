@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.679e3c54.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6f7f6711.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6f7f6711.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.dae6173c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.dae6173c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b9da9406.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b9da9406.js.map",
     "static/css/2.d64471e2.chunk.css": "/Portfolio/static/css/2.d64471e2.chunk.css",
-    "static/js/2.2f981a3c.chunk.js": "/Portfolio/static/js/2.2f981a3c.chunk.js",
-    "static/js/2.2f981a3c.chunk.js.map": "/Portfolio/static/js/2.2f981a3c.chunk.js.map",
+    "static/js/2.6932be2c.chunk.js": "/Portfolio/static/js/2.6932be2c.chunk.js",
+    "static/js/2.6932be2c.chunk.js.map": "/Portfolio/static/js/2.6932be2c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.fbc61d8a946e3418d1a157419187b589.js": "/Portfolio/precache-manifest.fbc61d8a946e3418d1a157419187b589.js",
+    "precache-manifest.ffaccc5ff69e1d01dcfaeebf273e6e51.js": "/Portfolio/precache-manifest.ffaccc5ff69e1d01dcfaeebf273e6e51.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.d64471e2.chunk.css.map": "/Portfolio/static/css/2.d64471e2.chunk.css.map",
     "static/css/main.679e3c54.chunk.css.map": "/Portfolio/static/css/main.679e3c54.chunk.css.map",
-    "static/js/2.2f981a3c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2f981a3c.chunk.js.LICENSE.txt",
+    "static/js/2.6932be2c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6932be2c.chunk.js.LICENSE.txt",
     "static/media/blacksmith.jpg": "/Portfolio/static/media/blacksmith.c56574c2.jpg",
     "static/media/favicon.ico": "/Portfolio/static/media/favicon.79079349.ico",
     "static/media/footer.png": "/Portfolio/static/media/footer.03a75ab2.png",
@@ -27,14 +27,15 @@
     "static/media/me4.jpg": "/Portfolio/static/media/me4.7591aae2.jpg",
     "static/media/me5.jpg": "/Portfolio/static/media/me5.3539e50d.jpg",
     "static/media/me6.jpg": "/Portfolio/static/media/me6.b7b985bf.jpg",
+    "static/media/photographer.jpg": "/Portfolio/static/media/photographer.b48cfa6d.jpg",
     "static/media/rider.jpg": "/Portfolio/static/media/rider.a31a15a5.jpg",
     "static/media/silverhand.jpg": "/Portfolio/static/media/silverhand.3e405670.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9da9406.js",
     "static/css/2.d64471e2.chunk.css",
-    "static/js/2.2f981a3c.chunk.js",
+    "static/js/2.6932be2c.chunk.js",
     "static/css/main.679e3c54.chunk.css",
-    "static/js/main.6f7f6711.chunk.js"
+    "static/js/main.dae6173c.chunk.js"
   ]
 }
