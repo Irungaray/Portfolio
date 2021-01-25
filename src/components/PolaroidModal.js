@@ -2,15 +2,19 @@ import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from 'react-awesome-slider';
 
-import 'react-awesome-slider/dist/styles.css';
-import 'react-awesome-slider/dist/captioned.css';
+import AwesomeSliderStyles from "../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 
+import polaroid1 from "../assets/polaroidModal/me1.jpg"
+import polaroid2 from "../assets/polaroidModal/me2.jpg"
+import polaroid3 from "../assets/polaroidModal/me3.png"
+import polaroid4 from "../assets/polaroidModal/me4.jpg"
+import polaroid5 from "../assets/polaroidModal/me5.jpg"
+import polaroid6 from "../assets/polaroidModal/me6.jpg"
+import blacksmith from "../assets/polaroidModal/blacksmith.jpg"
+import rider from "../assets/polaroidModal/rider.jpg"
+import silverhand from "../assets/polaroidModal/silverhand.jpg"
 
-import polaroid from "../assets/polaroidModal/polaroid.jpg"
-import polaroid1 from "../assets/polaroidModal/polaroid1.png"
-import polaroid2 from "../assets/polaroidModal/polaroid2.jpg"
-import polaroid3 from "../assets/polaroidModal/polaroid3.jpg"
-import polaroid4 from "../assets/polaroidModal/polaroid4.jpg"
 
 class PolaroidModal extends Component {
   render() {
@@ -30,7 +34,7 @@ class PolaroidModal extends Component {
             <i className="fas fa-times fa-3x close-icon"></i>
           </span>
           <div className="col-md-12">
-            <div className="col-md-11 mx-auto" style={{ paddingBottom: "50px" }}>
+            <div className="col-md-11 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
                 <span
                   className="iconify slider-iconfiy"
@@ -52,16 +56,20 @@ class PolaroidModal extends Component {
                 ></span>
               </div>
               <AwesomeSlider
+                cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
                 animation="scaleOutAnimation"
                 className="slider-image"
               >
-                <div> <img src={polaroid} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid1} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid2} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid3} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
-                <div> <img src={polaroid4} alt="Me, myself and I" style={{ paddingBottom: "20px"}}/> <br /> <h1 className="text-center">BEEP BEEP MOTHERFUCKER!</h1> </div>
-                {/* {imgMap} */}
-            </AwesomeSlider>
+                <div> <img src={polaroid1} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Outdoors Enjoyer</div></div>
+                <div> <img src={polaroid2} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Antiquities Collector</div> </div>
+                <div> <img src={polaroid4} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Welder</div> </div>
+                <div> <img src={blacksmith} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Blacksmith</div> </div>
+                <div> <img src={rider} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Rider</div> </div>
+                <div> <img src={polaroid3} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Asador Senior</div> </div>
+                <div> <img src={polaroid6} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ferroclub CDU Member</div> </div>
+                <div> <img src={polaroid5} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ciri, my dog</div> </div>
+                <div> <img src={silverhand} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">You really got all the way down here? Hope you enjoyed, Samurai!</div> </div>
+              </AwesomeSlider>
             </div>
 
             <div className="col-md-12 text-center">

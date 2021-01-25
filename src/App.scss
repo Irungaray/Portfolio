@@ -206,6 +206,36 @@ header p {
 	position: relative;
 }
 
+.polaroid-modal img {
+	// max-width: 100vw;
+	max-height: 60vh;
+}
+
+.polaroid-modal__div {
+  --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 1%));
+  --shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%);
+  --primary-hue: 0;
+  --color: hsl(0, 0%, 100%);
+  --font-size: 26px;
+  --shadow-primary-hue: 180;
+  color: var(--color);
+  text-transform: uppercase;
+  background: var(--primary);
+  font-size: var(--font-size);
+  outline: transparent;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: 0;
+	width: 100%;
+	height: 63px;
+  box-shadow: inset -3px 0 0 var(--shadow-primary);
+  clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%);
+}
+
+.polaroid-modal__div, .polaroid-modal div {
+  font-family: 'Cyber', 'sans-serif';
+}
+
 .link-href {
 	color: black;
 }
@@ -464,6 +494,18 @@ footer a:focus {
 		margin-top: 27%;
 		text-align: center;
 	}
+	// .polaroid-modal img {
+  //   height: 90vh;
+	// }
+	.polaroid-modal img {
+    max-height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 1367px) {
+	.polaroid-modal img {
+    max-height: 45vh;
+	}
 }
 
 @media (min-width: 576px) {
@@ -476,6 +518,12 @@ footer a:focus {
 
 	.modal-xl {
 		max-width: 70vw!important;
+	}
+}
+
+@media (max-width: 576px) {
+	.polaroid-modal img {
+    max-height: 30vh;
 	}
 }
 
@@ -494,6 +542,10 @@ footer a:focus {
 
 	.title-styles {
 		font-size: 90%;
+	}
+
+	.polaroid-modal img {
+    max-height: 30vh;
 	}
 }
 
