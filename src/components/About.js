@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import { Icon } from "@iconify/react";
 
 import PolaroidModal from "./PolaroidModal";
@@ -119,9 +121,11 @@ class About extends Component {
                     <h3>{interests}</h3>
                     <br />
                     <h3>{trayectory}
-                      <span style={{ fontSize: "30px" }} role="img" aria-label="">
-                        🚀
-                      </span>
+                      <Link to="/Career">
+                        <span style={{ fontSize: "30px" }} role="img" aria-label="">
+                          🚀
+                        </span>
+                      </Link>
                     </h3>
                     <br />
                   </div>

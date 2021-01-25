@@ -1,14 +1,8 @@
 import React, { Component } from "react";
-import $ from "jquery";
-import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import cyberFooter from './assets/footer.png';
+import Home from "./components/Home";
+import Career from "./components/Career";
 
 class App extends Component {
   constructor(props) {
@@ -20,139 +14,14 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
-  }
-
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(pickedLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(oppositeLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
-
-  componentDidMount() {
-    this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
-  }
-
-  loadResumeFromPath(path) {
-    $.ajax({
-      url: path,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
-  loadSharedData() {
-    $.ajax({
-      url: `portfolio_shared_data.json`,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = "Irungaray"
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
   render() {
     return (
-      <div>
-        <div className="landing">
-          <Header sharedData={this.state.sharedData.basic_info} />
-          <div className="col-md-12 mx-auto text-center language">
-            <div
-              onClick={() =>
-                this.applyPickedLanguage(
-                  window.$primaryLanguage,
-                  window.$secondaryLanguageIconId
-                )
-              }
-              style={{ display: "inline" }}
-            >
-              <span
-                className="iconify language-icon mr-5"
-                data-icon="twemoji-flag-for-flag-united-states"
-                data-inline="false"
-                id={window.$primaryLanguageIconId}
-              ></span>
-            </div>
-            <div
-              onClick={() =>
-                this.applyPickedLanguage(
-                  window.$secondaryLanguage,
-                  window.$primaryLanguageIconId
-                )
-              }
-              style={{ display: "inline" }}
-            >
-              <span
-                className="iconify language-icon"
-                data-icon="twemoji-flag-for-flag-argentina"
-                data-inline="false"
-                id={window.$secondaryLanguageIconId}
-              ></span>
-
-            </div>
-          </div>
-
-          <img
-            src={cyberFooter}
-            alt="Cyber Header"
-            className="Cyber"
-            style={{
-              top: "0",
-              bottom: "0",
-              width: "100%",
-              height: "30px",
-              objectFit: "cover"
-            }}
-          />
-        </div>
-
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Career" component={Career} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
