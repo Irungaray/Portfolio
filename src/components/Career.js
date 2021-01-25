@@ -19,128 +19,198 @@ import rider from "../assets/polaroidModal/rider.jpg"
 import silverhand from "../assets/polaroidModal/silverhand.jpg"
 
 
-class Experience extends Component {
+class Career extends Component {
   render() {
     return (
       <>
-        <img
-          src={cyberHeader}
-          alt="Cyber Header"
-          className="Cyber"
-          style={{
-            top: "0",
-            bottom: "0",
-            width: "100%",
-            height: "30px",
-            objectFit: "cover",
-          }}
-        />
+      <img
+        src={cyberHeader}
+        alt="Cyber Header"
+        className="Cyber"
+        style={{
+          top: "0",
+          bottom: "0",
+          width: "100%",
+          height: "30px",
+          objectFit: "cover",
+        }}
+      />
+      {/* FIRST ROW */}
+      <div className="row center mx-auto">
+        {/* FIRST ROW FIRST COLLUMN */}
+        <div className="col-xl-5">
+          <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="slider-tab">
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="emojione:red-circle"
+                data-inline="false"
+                style={{ marginLeft: "5px" }}
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:yellow-circle"
+                data-inline="false"
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:green-circle"
+                data-inline="false"
+              ></span>
+            </div>
+            <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              More about me
+              <br />
+              <br />
+              <h3>Here you can see more about</h3>
+              <br />
+              <h3>Tech</h3>
+              <br />
+              <h3>Interests</h3>
+              <br />
+              <h3>Trayectory
+                  <span style={{ fontSize: "30px" }} role="img" aria-label="">🚀</span>
+              </h3>
+              <br />
+            </div>
+          </div>
+        </div>
 
-      <div className="col-md-12">
-        <div className="col-md-5 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
-          <div className="slider-tab">
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="emojione:red-circle"
-              data-inline="false"
-              style={{ marginLeft: "5px" }}
-            ></span>{" "}
-            &nbsp;{" "}
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="twemoji:yellow-circle"
-              data-inline="false"
-            ></span>{" "}
-            &nbsp;{" "}
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="twemoji:green-circle"
-              data-inline="false"
-            ></span>
+        {/* FIRST ROW SECOND COLLUMN */}
+        <div className="col-xl-5">
+          <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="slider-tab">
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="emojione:red-circle"
+                data-inline="false"
+                style={{ marginLeft: "5px" }}
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:yellow-circle"
+                data-inline="false"
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:green-circle"
+                data-inline="false"
+              ></span>
+            </div>
+            <AwesomeSlider
+              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+              animation="scaleOutAnimation"
+              className="slider-image"
+            >
+              <div> <img src={polaroid1} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Outdoors Enjoyer</div></div>
+              <div> <img src={polaroid2} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Antiquities Collector</div> </div>
+              <div> <img src={polaroid4} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Welder</div> </div>
+              <div> <img src={blacksmith} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Blacksmith</div> </div>
+              <div> <img src={rider} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Rider</div> </div>
+              <div> <img src={polaroid3} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Asador Senior</div> </div>
+              <div> <img src={polaroid6} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ferroclub CDU Member</div> </div>
+              <div> <img src={polaroid5} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ciri, my dog</div> </div>
+              <div> <img src={silverhand} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">You really got all the way down here? Hope you enjoyed, Samurai!</div> </div>
+            </AwesomeSlider>
           </div>
 
-          <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
-            Hello there!
-            <span style={{ fontSize: "40px" }} role="img" aria-label="" >
-              😎
-            </span>
-            <br />
-            <br />
-            <h3>Here you can see more about</h3>
-            <br />
-            <h3>Tech</h3>
-            <br />
-            <h3>Interests</h3>
-            <br />
-            <h3>Trayectory
-                <span style={{ fontSize: "30px" }} role="img" aria-label="">🚀</span>
-            </h3>
-            <br />
+          <div className="col-md-12 text-center">
+            <h1 style={{ paddingBottom: "15px" }}>Not everything in life is coding!</h1>
           </div>
-
         </div>
       </div>
 
-      {/* MODAL */}
-      <div className="col-md-12">
-        <div className="col-md-5 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
-          <div className="slider-tab">
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="emojione:red-circle"
-              data-inline="false"
-              style={{ marginLeft: "5px" }}
-            ></span>{" "}
-            &nbsp;{" "}
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="twemoji:yellow-circle"
-              data-inline="false"
-            ></span>{" "}
-            &nbsp;{" "}
-            <span
-              className="iconify slider-iconfiy"
-              data-icon="twemoji:green-circle"
-              data-inline="false"
-            ></span>
+      {/* SECOND ROW */}
+      <div className="row center mx-auto">
+        {/* SECOND ROW FIRST COLLUMN */}
+        <div className="col-xl-5">
+          <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="slider-tab">
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="emojione:red-circle"
+                data-inline="false"
+                style={{ marginLeft: "5px" }}
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:yellow-circle"
+                data-inline="false"
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:green-circle"
+                data-inline="false"
+              ></span>
+            </div>
+            <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              Autodidact
+              <h3>Trayectory
+                  <span style={{ fontSize: "30px" }} role="img" aria-label="">🚀</span>
+              </h3>
+              <br />
+            </div>
           </div>
-          <AwesomeSlider
-            cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-            animation="scaleOutAnimation"
-            className="slider-image"
-          >
-            <div> <img src={polaroid1} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Outdoors Enjoyer</div></div>
-            <div> <img src={polaroid2} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Antiquities Collector</div> </div>
-            <div> <img src={polaroid4} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Welder</div> </div>
-            <div> <img src={blacksmith} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Blacksmith</div> </div>
-            <div> <img src={rider} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Rider</div> </div>
-            <div> <img src={polaroid3} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Asador Senior</div> </div>
-            <div> <img src={polaroid6} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ferroclub CDU Member</div> </div>
-            <div> <img src={polaroid5} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">Ciri, my dog</div> </div>
-            <div> <img src={silverhand} alt="Me, myself and I"/> <br /> <div className="polaroid-modal__div">You really got all the way down here? Hope you enjoyed, Samurai!</div> </div>
-          </AwesomeSlider>
         </div>
 
-        <div className="col-md-12 text-center">
-          <h1 style={{ paddingBottom: "15px" }}>Not everything in life is coding!</h1>
+        {/* SECOND ROW SECOND COLLUMN */}
+        <div className="col-xl-5">
+          <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="slider-tab">
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="emojione:red-circle"
+                data-inline="false"
+                style={{ marginLeft: "5px" }}
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:yellow-circle"
+                data-inline="false"
+              ></span>{" "}
+              &nbsp;{" "}
+              <span
+                className="iconify slider-iconfiy"
+                data-icon="twemoji:green-circle"
+                data-inline="false"
+              ></span>
+            </div>
+            <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              Where im heading
+              <span style={{ fontSize: "40px" }} role="img" aria-label="" >
+                😎
+              </span>
+              <h3>Trayectory
+                  <span style={{ fontSize: "30px" }} role="img" aria-label="">🚀</span>
+              </h3>
+              <br />
+            </div>
+          </div>
         </div>
       </div>
 
-        <img
-          src={cyberHeaderUD}
-          alt="Cyber Header"
-          className="Cyber"
-          style={{
-            top: "0",
-            bottom: "0",
-            width: "100%",
-            height: "30px",
-            objectFit: "cover",
-          }}
-        />
+      <img
+        src={cyberHeaderUD}
+        alt="Cyber Header"
+        className="Cyber"
+        style={{
+          top: "0",
+          bottom: "0",
+          width: "100%",
+          height: "30px",
+          objectFit: "cover",
+        }}
+      />
       </>
     );
   }
 }
 
-export default Experience;
+export default Career;
