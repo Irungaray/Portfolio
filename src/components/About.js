@@ -35,6 +35,7 @@ class About extends Component {
       var techs = this.props.resumeBasicInfo.stack;
       var interests = this.props.resumeBasicInfo.passion;
       var trayectory = this.props.resumeBasicInfo.more;
+      var langDisclaimer = this.props.resumeBasicInfo.langDisclaimer;
     }
 
     return (
@@ -119,13 +120,14 @@ class About extends Component {
                     <br />
                     <h3>{interests}</h3>
                     <br />
-                    <h3 style={{ fontSize: "25px" }}>{trayectory}
+                    <small style={{ fontSize: "27px" }}>{trayectory}
                       <Link to="/Career">
                         <span style={{ fontSize: "30px" }} role="img" aria-label="">
                           🚀
                         </span>
                       </Link>
-                    </h3>
+                    </small>
+                    {langDisclaimer ? <div><br /><h3>{langDisclaimer}</h3></div> : null}
                     <br />
                   </div>
                 </div>

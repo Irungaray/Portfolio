@@ -16,6 +16,7 @@ class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
+      var seeMore = this.props.resumeBasicInfo.seeMore;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
@@ -116,7 +117,7 @@ class Experience extends Component {
         <div className="text-center button-div">
           <Link to="/Career">
             <button className="cybr-btn">
-              Wanna see more? ((edit))
+              {seeMore}
               <span className="cybr-btn__glitch">Click here</span>
             </button>
           </Link>
