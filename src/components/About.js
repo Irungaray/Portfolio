@@ -119,7 +119,7 @@ class About extends Component {
                     <br />
                     <h3>{interests}</h3>
                     <br />
-                    <h3>{trayectory}
+                    <h3 style={{ fontSize: "25px" }}>{trayectory}
                       <Link to="/Career">
                         <span style={{ fontSize: "30px" }} role="img" aria-label="">
                           🚀

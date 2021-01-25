@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
         <ScrollToTop>
           <Switch>
             <Route exact path="/" component={Home} />

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import cyberHeader from "../assets/header.png";
 import cyberHeaderUD from "../assets/headerUD.png";
 
+import Typical from "react-typical";
 import AwesomeSlider from "react-awesome-slider";
 
 import AwesomeSliderStyles from "../scss/light-slider.scss";
@@ -22,7 +23,7 @@ import silverhand from "../assets/polaroidModal/silverhand.jpg";
 class Career extends Component {
   render() {
     return (
-      <>
+      <div>
         <img
           src={cyberHeader}
           alt="Cyber Header"
@@ -35,6 +36,15 @@ class Career extends Component {
             objectFit: "cover",
           }}
         />
+
+        <div className="text-center">
+          <Link to="/Career">
+            <button className="cybr-btn" style={{ fontSize: "50px", width: "80vw"}}>
+              <p>Lionel Irungaray</p>
+              <span className="cybr-btn__glitch">Click to go back</span>
+            </button>
+          </Link>
+        </div>
 
         <div className="row center mx-auto" style={{ marginTop: "30px" }}>
           <div className="col-xl-5">
@@ -228,7 +238,7 @@ class Career extends Component {
             objectFit: "cover",
           }}
         />
-      </>
+      </div>
     );
   }
 }
