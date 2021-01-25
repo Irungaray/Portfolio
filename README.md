@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Thanks to:
+<a href="https://github.com/NataliCalzia">Natali Calzia</a> for the help with the UI & UX <br/>
+
+<a href="https://github.com/Dorota1997">Dorota Gil</a> for making the awesome <a href="https://github.com/Dorota1997/react-frontend-dev-portfolio">original template!</a> <br/>
 
 <br/>
 
