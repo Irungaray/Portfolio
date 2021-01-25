@@ -59,6 +59,25 @@ class Experience extends Component {
             ></span>
           </div>
 
+          <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+            Hello there!
+            <span style={{ fontSize: "40px" }} role="img" aria-label="" >
+              😎
+            </span>
+            <br />
+            <br />
+            <h3>Here you can see more about</h3>
+            <br />
+            <h3>Tech</h3>
+            <br />
+            <h3>Interests</h3>
+            <br />
+            <h3>Trayectory
+                <span style={{ fontSize: "30px" }} role="img" aria-label="">🚀</span>
+            </h3>
+            <br />
+          </div>
+
         </div>
       </div>
 

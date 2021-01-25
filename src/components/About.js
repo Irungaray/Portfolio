@@ -67,7 +67,12 @@ class About extends Component {
               </div>
             </div>
           </div>
-          {/* aca */}
+
+          <PolaroidModal
+            show={this.state.polaroidModalShow}
+            onHide={polaroidModalClose}
+            data={this.state.deps}
+          />
 
           <div className="col-md-6 center">
             <div className="col-md-11">
@@ -100,12 +105,6 @@ class About extends Component {
                   }}
                 >
                   <br />
-
-                  <PolaroidModal
-                    show={this.state.polaroidModalShow}
-                    onHide={polaroidModalClose}
-                    data={this.state.deps}
-                  />
 
                   <div className="wave">
                     {hello}
