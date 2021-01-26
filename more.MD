@@ -18,8 +18,15 @@ In my free time, after school, I learned different crafts that were of my intere
 
 I started my own business, "Irungaray Metalúrgica", which has given me the experience, not only of the craft's technical stuff, but on the 'soft' habilities that every entrepeneur must have. From the first contact with the client, and the understanding of what he wanted to get done or what problem he wanted to solve, to the logistics of considering and getting the resources that I needed to do each job. Estimating and managing time, calculating the budget, hiring and leading people if its needed, etc.
 
-Besides of having worked on different areas 
-I carry a backpack full of transversal knowledges of different areas, which complements one with another.
+Having worked on different areas, I was in charge of teams of up to 3 people. This made me gain experience that I apply now on everything that I do.
+I carry a backpack full of transversal knowledges of different areas, which complements one with another and help me solve every problem that I face.
+
+
+I like working alone almost as much as a I like working on teams. I love to take care of my co-workers, watch their backs, constantly seeing if they need help with something, or counsel them if there is something that could be done in a better way.
+
+Also, I really like to take advantage of every minute of the day thinking 'How and in which order should we do today's tasks?'
+
+That's why i'd love to, in the near future,  become a SCRUM Master or a Project Manager, so I can exploit my interpersonal habilities in order to lead my co-workers into productive and joyful journeys of work.
 
 - Durante mi adolescencia me desempeñé como repartidor, mensajero, cortador de pasto, albañil, metalúrgico, lavador de autos,( etc)
 

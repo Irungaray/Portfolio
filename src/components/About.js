@@ -1,3 +1,10 @@
+// Dear colleague:
+// If you got all the way here to my source code,
+// You may notice that one or two things are poorly optimized
+// But I wanted to get it done before the dead end of a job oportunity, which is 30/01/2021, inclusive
+// So hey, time is gold
+// Wish me luck!
+
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 

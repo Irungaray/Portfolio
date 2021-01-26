@@ -85,14 +85,14 @@ class Projects extends Component {
           </div>
         </section>
 
-        <div className="text-center button-div">
+        {/* <div className="text-center button-div">
           <Link to="/Career">
             <button className="cybr-btn">
               {seeMore}
               <span className="cybr-btn__glitch">Click here</span>
             </button>
           </Link>
-        </div>
+        </div> */}
 
         <img
           src={cyberFooter}

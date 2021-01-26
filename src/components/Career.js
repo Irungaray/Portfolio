@@ -23,7 +23,7 @@ import silverhand from "../assets/polaroidModal/silverhand.jpg";
 class Career extends Component {
   render() {
     return (
-      <div>
+      <div >
         <img
           src={cyberHeader}
           alt="Cyber Header"
@@ -72,22 +72,19 @@ class Career extends Component {
               <div className="wave" style={{ backgroundColor: "#f3f3f3", padding: "0 30px 0 30px"}}>
                 More about me
                 <h3>Currently, this section is only available in english :(</h3>
+                <h3>Here you will find a lot more info about me. Seriously, a lot. So if you get bored, you can always go back to the homepage!</h3>
                 <div className="text-left more-about">
                   <p>
-                    My full name is Lionel Agustín Irungaray. I'm 22 and live in Concepción del Uruguay,
-                    a small town in Entre Ríos, Argentina.
+                    My full name is Lionel Agustín Irungaray. I'm 22 and live in Concepción del Uruguay, a small town in Entre Ríos, Argentina.
                   </p>
                   <p>
-                    I got my first computer back when I was 6 or 8 years old, around 2007-2008,
-                    and from then, technology drives me crazy.
+                    I got my first computer back when I was 6 or 8 years old, around 2007-2008, and from then, technology drives me crazy. When I turned 10, I knew to handle a computer better than any adult who actually used it for daily work. Back in the day, computers weren't a "every-home-thing", and 'Internet' sounded like a word from a far away future.
                   </p>
                   <p>
-                    When I turned 10, I knew to handle computers better than any adult who actually used them for daily work.
-                    Obviously, computers werent a "every-home-thing" back in the day, and 'Internet' sounded like a word from a far away future.
+                    Around 10, I started "programming". I learned to do some scripts on Batch and I was amazed by the way I could create and delete folders, get information like the time and the date, print messages on the console and so on, just by typing commands on Window’s notepad. I was pretty a hacker considering the time and my age, don't you think?
                   </p>
                   <p>
-                    Around that age, I started scavenging on forums about hacking stuff, and so I started "programming". I learned to do some scripts on Batch and I was amazed by the way I could create and delete folders, get information like the time and the date, print messages on the console and so on, just by typing commands on a notepad.
-                    I was a real hacker considering the time and my age, dont you think?
+                    Now, after doing my time in other fields and having earned personal and professional experience, I'm fully dedicated to software engineering, particularly Web Development.
                   </p>
                 </div>
                 <h1>
@@ -129,19 +126,19 @@ class Career extends Component {
                 Autodidact
                 <div className="text-left more-about">
                   <p>
-                  Just as I said before, I always teached myself the things I wanted to know.
+                    I am an autodidact. I always teached myself the things I wanted to know.
                   </p>
                   <p>
-                  Later, in my adolescence, I deviated a couple of years from the tech industry and incursioned into other fields.
+                    Besides from technology, when I was younger, in my free time, I learned different crafts that were of my interest, such as welding, blacksmithing, mechanics, etc.
                   </p>
                   <p>
-                  In my free time, after school, I learned different crafts that were of my interest, such as welding, blacksmithing, motor mechanics, etc.
+                    I started my own business, "Irungaray Metalúrgica", which has given me the experience, not only of the craft's technical stuff, but on the 'soft' skills that every entrepreneur must have. From the first contact with the client, and the understanding of what he wanted to get done or what problem he wanted to solve, to the logistics of considering and getting the resources that I needed to do each job. Estimating and managing time, calculating the budget, hiring and leading people if it's needed, etc.
                   </p>
                   <p>
-                    I started my own business, "Irungaray Metalúrgica", which has given me the experience, not only of the craft's technical stuff, but on the 'soft' habilities that every entrepeneur must have. From the first contact with the client, and the understanding of what he wanted to get done or what problem he wanted to solve, to the logistics of considering and getting the resources that I needed to do each job. Estimating and managing time, calculating the budget, hiring and leading people if its needed, etc.
+                    I carry a backpack full of transversal knowledges that I acquired in different areas and disciplines, which complements one with another and helps me solve every problem that I face.
                   </p>
                   <p>
-                  I carry a backpack full of transversal knowledges of different areas and disciplines, which complements one with another and help me solve every problem that I face.
+                    This has helped me a lot to enhance my career as a Developer, since now I rely on all that experience when it comes to the challenges that the software development process presents, such as problem solving techniques, or project structuring.
                   </p>
                 </div>
                 <br />
@@ -149,7 +146,7 @@ class Career extends Component {
             </div>
           </div>
 
-          <div className="row md-auto" style={{ maxWidth: "70%"}}>
+          {/* <div className="row mx-auto"> */}
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
                 <span
@@ -172,32 +169,53 @@ class Career extends Component {
                 ></span>
               </div>
               <div className="wave" style={{ backgroundColor: "#f3f3f3", padding: "0 30px 0 30px"}}>
-                Where im heading
+                Where I'm now
                 <div className="text-left more-about">
                   <p>
-                    I like working alone almost as much as a I like working on teams. Having worked on different areas, I was in charge of teams of up to 3 people. This made me gain experience that I apply now on everything that I do.
+                    I’m in a constant learning process, as every developer should be. I have chosen React as the main framework to work with, since it is great to create awesome and dynamic Web Apps in just a matter of days.
+                  </p>
+                  <p>
+                    Also I like the MERN Stack because it gives ‘superpowers’ to React, allowing me to create (almost) every project I can imagine.
+                  </p>
+                  <p>
+                    Currently, I’m working on a Startup, “Altaïr Devs”, that me and two associates (and friends of mine) founded last year. It counts with a UI/UX Designer, a Backend Developer, and me as the CEO and Frontend Developer. Our mission is to help local businesses adapt to the new paradigms of technology. We focus on generating Minimum Viable Products (MVP). With this methodology we propose step-by-step product evolution, so we can keep iterating, always keeping in mind the client’s feedback.
+                  </p>
+                  <p>
+                    Since it is a side project, <strong>I'm open and anxious to work</strong> on a fully-consolidated enterprise, so, if you are a recruiter or a potential employer, feel free to contact me so we can have a chat! Down below you will find my networks.
+                  </p>
+                </div>
+                Where I'm heading
+                <div className="text-left more-about">
+                  <p>
+                    I like working alone almost as much as I like working on teams. Having worked on different areas, I was in charge of teams of up to 3 people. This made me gain experience that I apply now on everything that I do.
                   </p>
                   <p>
                     I love to take care of my co-workers. Watch their backs, constantly see if they need help with something, or counsel them if there is something that could be done in a better way.
                   </p>
                   <p>
-                  Also, I really like to take advantage of every minute of the day thinking 'How and in which order should we do today's tasks?'
+                    Also, I really like to take advantage of every minute of the day thinking 'How and in which order should we do today's tasks?'
                   </p>
                   <p>
-                  That's why i'd love to, in the near future,  become a SCRUM Master or a Project Manager, so I can exploit my interpersonal habilities in order to get my co-workers develop the most of themselves and lead them into productive and joyful journeys of work.
+                    That's why I'd love to, in the near future, become a SCRUM Master or a Tech Leader, so I can exploit my interpersonal skills in order to get my co-workers to develop the most of themselves and lead them into productive and joyful journeys of work.
                   </p>
-                  <p>
-                    I'd like to be a link in the chain that connects the client with the devs.
+                  <br/>
+                  <p className="text-center">
+                    “The best people possess a feeling for beauty, the courage to take risks, the discipline to tell the truth, and the capacity for sacrifice.” <br/>
+                    ― Ernest Hemingway
                   </p>
                 </div>
                 <br/>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
 
         <div className="row center mx-auto">
           <div className="col-md-7 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
+            <div className="col-md-12 text-center">
+              <h1 style={{ paddingBottom: "15px" }}>And because not everything in life is coding, here you can see me doing some of the other things that I love!</h1>
+            </div>
+
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
@@ -218,6 +236,7 @@ class Career extends Component {
                 data-inline="false"
               ></span>
             </div>
+
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles]}
               animation="scaleOutAnimation"
@@ -236,9 +255,6 @@ class Career extends Component {
             </AwesomeSlider>
           </div>
 
-          <div className="col-md-12 text-center">
-            <h1 style={{ paddingBottom: "15px" }}>Not everything in life is coding!</h1>
-          </div>
         </div>
 
         <div className="text-center button-div">
