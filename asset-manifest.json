@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.679e3c54.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e8e1757f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e8e1757f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c4f4d466.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e59f471f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e59f471f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b9da9406.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b9da9406.js.map",
     "static/css/2.d64471e2.chunk.css": "/Portfolio/static/css/2.d64471e2.chunk.css",
-    "static/js/2.6932be2c.chunk.js": "/Portfolio/static/js/2.6932be2c.chunk.js",
-    "static/js/2.6932be2c.chunk.js.map": "/Portfolio/static/js/2.6932be2c.chunk.js.map",
+    "static/js/2.100fc808.chunk.js": "/Portfolio/static/js/2.100fc808.chunk.js",
+    "static/js/2.100fc808.chunk.js.map": "/Portfolio/static/js/2.100fc808.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.6c7f97bd6831f8d2bc8fde1976fee614.js": "/Portfolio/precache-manifest.6c7f97bd6831f8d2bc8fde1976fee614.js",
+    "precache-manifest.369f3ae947127c6012a560975a5006b1.js": "/Portfolio/precache-manifest.369f3ae947127c6012a560975a5006b1.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.d64471e2.chunk.css.map": "/Portfolio/static/css/2.d64471e2.chunk.css.map",
-    "static/css/main.679e3c54.chunk.css.map": "/Portfolio/static/css/main.679e3c54.chunk.css.map",
-    "static/js/2.6932be2c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6932be2c.chunk.js.LICENSE.txt",
+    "static/css/main.c4f4d466.chunk.css.map": "/Portfolio/static/css/main.c4f4d466.chunk.css.map",
+    "static/js/2.100fc808.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.100fc808.chunk.js.LICENSE.txt",
     "static/media/blacksmith.jpg": "/Portfolio/static/media/blacksmith.c56574c2.jpg",
     "static/media/favicon.ico": "/Portfolio/static/media/favicon.79079349.ico",
     "static/media/footer.png": "/Portfolio/static/media/footer.03a75ab2.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.b9da9406.js",
     "static/css/2.d64471e2.chunk.css",
-    "static/js/2.6932be2c.chunk.js",
-    "static/css/main.679e3c54.chunk.css",
-    "static/js/main.e8e1757f.chunk.js"
+    "static/js/2.100fc808.chunk.js",
+    "static/css/main.c4f4d466.chunk.css",
+    "static/js/main.e59f471f.chunk.js"
   ]
 }
