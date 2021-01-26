@@ -69,25 +69,27 @@ class Career extends Component {
                   data-inline="false"
                 ></span>
               </div>
-              <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              <div className="wave" style={{ backgroundColor: "#f3f3f3", padding: "0 30px 0 30px"}}>
                 More about me
                 <h3>Currently, this section is only available in english :(</h3>
-                <h2>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
-                  nesciunt praesentium obcaecati est rerum, iure repudiandae
-                  aperiam odit soluta voluptatem quo, laudantium suscipit id,
-                  debitis commodi maxime ducimus quidem aut.
-                </h2>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Exercitationem qui eligendi aliquid rem facilis atque veniam
-                  adipisci, et ipsum repellendus quis possimus laborum a
-                  doloribus labore dolore vitae. Provident, in.Voluptas quod
-                  obcaecati quos non, commodi officia mollitia possimus deleniti
-                  repellendus cumque provident, temporibus atque nostrum, culpa
-                  ducimus distinctio dicta soluta. Dolore excepturi voluptates
-                  ullam dolorum sapiente veritatis ab reprehenderit.
-                </h2>
+                <div className="text-left more-about">
+                  <p>
+                    My full name is Lionel Agustín Irungaray. I'm 22 and live in Concepción del Uruguay,
+                    a small town in Entre Ríos, Argentina.
+                  </p>
+                  <p>
+                    I got my first computer back when I was 6 or 8 years old, around 2007-2008,
+                    and from then, technology drives me crazy.
+                  </p>
+                  <p>
+                    When I turned 10, I knew to handle computers better than any adult who actually used them for daily work.
+                    Obviously, computers werent a "every-home-thing" back in the day, and 'Internet' sounded like a word from a far away future.
+                  </p>
+                  <p>
+                    Around that age, I started scavenging on forums about hacking stuff, and so I started "programming". I learned to do some scripts on Batch and I was amazed by the way I could create and delete folders, get information like the time and the date, print messages on the console and so on, just by typing commands on a notepad.
+                    I was a real hacker considering the time and my age, dont you think?
+                  </p>
+                </div>
                 <h1>
                   Wanna go back to the homepage? click here ➡
                   <Link to="/">
@@ -101,7 +103,7 @@ class Career extends Component {
             </div>
           </div>
 
-          <div className="row md-auto">
+          <div className="row md-auto" style={{ maxWidth: "50%"}}>
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px"}}>
               <div className="slider-tab">
                 <span
@@ -123,14 +125,22 @@ class Career extends Component {
                   data-inline="false"
                 ></span>
               </div>
-              <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              <div className="wave" style={{ backgroundColor: "#f3f3f3", padding: "0 30px 0 30px"}}>
                 Autodidact
-                <h3>
-                  Trayectory
-                  <span style={{ fontSize: "30px" }} role="img" aria-label="">
-                    🚀
-                  </span>
-                </h3>
+                <div className="text-left more-about">
+                  <p>
+                  Just as I said before, I always teached myself the things I wanted to know.
+                  </p>
+                  <p>
+                  Later, in my adolescence, I deviated a couple of years from the tech industry and incursioned into other fields.
+                  </p>
+                  <p>
+                  In my free time, after school, I learned different crafts that were of my interest, such as welding, blacksmithing, motor mechanics, etc.
+                  </p>
+                  <p>
+                    I started my own business, "Irungaray Metalúrgica", which has given me the experience, not only of the craft's technical stuff, but on the 'soft' habilities that every entrepeneur must have. From the first contact with the client, and the understanding of what he wanted to get done or what problem he wanted to solve, to the logistics of considering and getting the resources that I needed to do each job. Estimating and managing time, calculating the budget, hiring and leading people if its needed, etc.
+                  </p>
+                </div>
                 <br />
               </div>
             </div>
@@ -156,18 +166,14 @@ class Career extends Component {
                   data-inline="false"
                 ></span>
               </div>
-              <div className="wave" style={{ backgroundColor: "#f3f3f3" }}>
+              <div className="wave" style={{ backgroundColor: "#f3f3f3", padding: "0 30px 0 30px"}}>
                 Where im heading
-                <span style={{ fontSize: "40px" }} role="img" aria-label="">
-                  😎
-                </span>
-                <h3>
-                  Trayectory
-                  <span style={{ fontSize: "30px" }} role="img" aria-label="">
-                    🚀
-                  </span>
-                </h3>
-                <br />
+                <div className="text-left more-about">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum facere itaque repellat doloribus consequuntur illo dolorem porro. Officia voluptates temporibus, iure molestias cum dolor doloribus enim quaerat nihil aut deleniti.Ab qui debitis architecto quos aspernatur repudiandae, asperiores magni, deserunt laboriosam, nobis adipisci a? Eligendi accusamus dolorem architecto autem maiores sit numquam laboriosam vitae, doloremque pariatur aut dignissimos quaerat. Autem!
+                  </p>
+                </div>
+                <br/>
               </div>
             </div>
           </div>
