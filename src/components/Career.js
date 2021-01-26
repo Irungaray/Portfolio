@@ -103,7 +103,7 @@ class Career extends Component {
             </div>
           </div>
 
-          <div className="row md-auto" style={{ maxWidth: "50%"}}>
+          <div className="col-xl-5">
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px"}}>
               <div className="slider-tab">
                 <span
@@ -140,11 +140,16 @@ class Career extends Component {
                   <p>
                     I started my own business, "Irungaray Metalúrgica", which has given me the experience, not only of the craft's technical stuff, but on the 'soft' habilities that every entrepeneur must have. From the first contact with the client, and the understanding of what he wanted to get done or what problem he wanted to solve, to the logistics of considering and getting the resources that I needed to do each job. Estimating and managing time, calculating the budget, hiring and leading people if its needed, etc.
                   </p>
+                  <p>
+                  I carry a backpack full of transversal knowledges of different areas and disciplines, which complements one with another and help me solve every problem that I face.
+                  </p>
                 </div>
                 <br />
               </div>
             </div>
+          </div>
 
+          <div className="row md-auto" style={{ maxWidth: "70%"}}>
             <div className="col-md-12 mx-auto polaroid-modal text-center" style={{ paddingBottom: "50px" }}>
               <div className="slider-tab">
                 <span
@@ -170,7 +175,19 @@ class Career extends Component {
                 Where im heading
                 <div className="text-left more-about">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum facere itaque repellat doloribus consequuntur illo dolorem porro. Officia voluptates temporibus, iure molestias cum dolor doloribus enim quaerat nihil aut deleniti.Ab qui debitis architecto quos aspernatur repudiandae, asperiores magni, deserunt laboriosam, nobis adipisci a? Eligendi accusamus dolorem architecto autem maiores sit numquam laboriosam vitae, doloremque pariatur aut dignissimos quaerat. Autem!
+                    I like working alone almost as much as a I like working on teams. Having worked on different areas, I was in charge of teams of up to 3 people. This made me gain experience that I apply now on everything that I do.
+                  </p>
+                  <p>
+                    I love to take care of my co-workers. Watch their backs, constantly see if they need help with something, or counsel them if there is something that could be done in a better way.
+                  </p>
+                  <p>
+                  Also, I really like to take advantage of every minute of the day thinking 'How and in which order should we do today's tasks?'
+                  </p>
+                  <p>
+                  That's why i'd love to, in the near future,  become a SCRUM Master or a Project Manager, so I can exploit my interpersonal habilities in order to get my co-workers develop the most of themselves and lead them into productive and joyful journeys of work.
+                  </p>
+                  <p>
+                    I'd like to be a link in the chain that connects the client with the devs.
                   </p>
                 </div>
                 <br/>
